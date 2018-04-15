@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>615</x>
-      <y>365</y>
+      <x>640</x>
+      <y>370</y>
       <w>105</w>
       <h>35</h>
     </coordinates>
@@ -20,27 +20,29 @@ Ansvar
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>240</x>
-      <y>240</y>
+      <x>265</x>
+      <y>245</y>
       <w>105</w>
-      <h>60</h>
+      <h>65</h>
     </coordinates>
     <panel_attributes>bg=#0099cc
 SCGmeasure
 --
 signalSCG
+symptomer
 dato/tid
 --
 Ansvar
 - registrere SCG-måling
+- håndtere symptomændringer
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>615</x>
-      <y>240</y>
+      <x>640</x>
+      <y>245</y>
       <w>105</w>
       <h>100</h>
     </coordinates>
@@ -64,56 +66,49 @@ Ansvar
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>365</x>
-      <y>240</y>
+      <x>390</x>
+      <y>245</y>
       <w>105</w>
-      <h>105</h>
+      <h>65</h>
     </coordinates>
     <panel_attributes>bg=#0099cc
-Støttesystem
+SupportOperations
 --
-scg-signal
-mpi
-tærskelværdi for mpi
+data
 --
 Ansvar
-- behandle SCG-data
-- find fidusialmarkører i 
-  SCG-signalet
-- beregne MPI
-- alarmer læge ved forværring
-  af patientens MPI og/eller 
-  symptomer
+- skriv symptomer og SCG til 
+støttesystem
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>490</x>
-      <y>240</y>
+      <x>515</x>
+      <y>245</y>
       <w>105</w>
-      <h>80</h>
+      <h>90</h>
     </coordinates>
     <panel_attributes>bg=#0099cc
-Database
+DatabaseOperations
 --
-patientregister 
-lægeregister
+data
 --
 Ansvar
-- hent data fra patientregister
-- hent data fra lægeregister
-- hent data fra støttesystem
-- lager hentet data
-</panel_attributes>
+- Forbind til database
+- Skriv og læs patient- og 
+lægeoplysninger til database
+- Læs SCG signal og parametre 
+fra databasen
+- bryd forbindelse til database</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>660</x>
-      <y>335</y>
+      <x>685</x>
+      <y>340</y>
       <w>15</w>
       <h>40</h>
     </coordinates>
@@ -123,8 +118,8 @@ Ansvar
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>590</x>
-      <y>285</y>
+      <x>615</x>
+      <y>290</y>
       <w>35</w>
       <h>15</h>
     </coordinates>
@@ -134,8 +129,8 @@ Ansvar
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>340</x>
-      <y>285</y>
+      <x>365</x>
+      <y>290</y>
       <w>35</w>
       <h>15</h>
     </coordinates>
@@ -145,30 +140,19 @@ Ansvar
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>340</x>
-      <y>315</y>
+      <x>365</x>
+      <y>330</y>
       <w>215</w>
-      <h>75</h>
+      <h>65</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>410.0;10.0;410.0;130.0;10.0;130.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>465</x>
-      <y>285</y>
-      <w>35</w>
-      <h>15</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>410.0;10.0;410.0;110.0;10.0;110.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>740</x>
-      <y>240</y>
+      <x>765</x>
+      <y>245</y>
       <w>105</w>
       <h>80</h>
     </coordinates>
@@ -189,8 +173,8 @@ Ansvar
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>115</x>
-      <y>240</y>
+      <x>140</x>
+      <y>245</y>
       <w>105</w>
       <h>65</h>
     </coordinates>
@@ -209,8 +193,8 @@ Ansvar
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>215</x>
-      <y>285</y>
+      <x>240</x>
+      <y>290</y>
       <w>35</w>
       <h>15</h>
     </coordinates>
@@ -220,8 +204,8 @@ Ansvar
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>715</x>
-      <y>285</y>
+      <x>740</x>
+      <y>290</y>
       <w>35</w>
       <h>15</h>
     </coordinates>
@@ -231,8 +215,8 @@ Ansvar
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>240</x>
-      <y>315</y>
+      <x>265</x>
+      <y>320</y>
       <w>105</w>
       <h>110</h>
     </coordinates>
@@ -245,19 +229,19 @@ cprNr.
 adgangskode
 adresse
 kontaktoplysninger
-symptomer
 funktionsklasseNYHA
 --
 Ansvar
 - indskriv patientdata 
-- opdatere patientdata</panel_attributes>
+- opdatere patientdata
+- slette patientdata</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>155</x>
-      <y>300</y>
+      <x>180</x>
+      <y>305</y>
       <w>95</w>
       <h>90</h>
     </coordinates>
@@ -267,8 +251,8 @@ Ansvar
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>490</x>
-      <y>130</y>
+      <x>515</x>
+      <y>135</y>
       <w>105</w>
       <h>65</h>
     </coordinates>
@@ -288,8 +272,8 @@ Ansvar
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>590</x>
-      <y>170</y>
+      <x>615</x>
+      <y>175</y>
       <w>215</w>
       <h>80</h>
     </coordinates>
@@ -299,8 +283,8 @@ Ansvar
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>155</x>
-      <y>170</y>
+      <x>180</x>
+      <y>175</y>
       <w>345</w>
       <h>80</h>
     </coordinates>
@@ -310,8 +294,8 @@ Ansvar
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>535</x>
-      <y>190</y>
+      <x>560</x>
+      <y>195</y>
       <w>15</w>
       <h>60</h>
     </coordinates>
