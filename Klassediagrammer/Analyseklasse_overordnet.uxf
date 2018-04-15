@@ -1,67 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>10</zoom_level>
+  <zoom_level>5</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1090</x>
-      <y>490</y>
-      <w>210</w>
-      <h>210</h>
+      <x>615</x>
+      <y>365</y>
+      <w>105</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>bg=#0099cc
-Administrator
+AdministratorInterface
 --
-fornavn
-efternavn
-administratorID
-adgangskode
 --
 Ansvar
-- tilføje ansættelsesID
-- opdatere lægedata
-- vedligehold telemonitorerings-
-  systemet
-- opdatere telemonitorerings-
-  systemet</panel_attributes>
+- tilføje ansættelsesID</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>340</x>
-      <y>220</y>
-      <w>210</w>
-      <h>280</h>
+      <x>240</x>
+      <y>240</y>
+      <w>105</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>bg=#0099cc
-Patient
+SCGmeasure
 --
-fornavn
-efternavn
-cprNr.
-adgangskode
-adresse
-kontaktoplysninger
-symptomer
-funktionsklasseNYHA
+signalSCG
 dato/tid
 --
 Ansvar
-- håndter og valider login af 
-  patient
 - registrere SCG-måling
-- indskriv patientdata 
-- opdatere patientdata</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1090</x>
+      <x>615</x>
       <y>240</y>
-      <w>210</w>
-      <h>210</h>
+      <w>105</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>bg=#0099cc
 Læge
@@ -72,7 +53,6 @@ ansættelsesID
 adgangskode
 --
 Ansvar
-- login
 - oprette patientID
 - udtræk patientdata
 - indkalde patient
@@ -84,10 +64,10 @@ Ansvar
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>590</x>
+      <x>365</x>
       <y>240</y>
-      <w>210</w>
-      <h>210</h>
+      <w>105</w>
+      <h>105</h>
     </coordinates>
     <panel_attributes>bg=#0099cc
 Støttesystem
@@ -98,9 +78,9 @@ tærskelværdi for mpi
 --
 Ansvar
 - behandle SCG-data
-- beregne MPI
 - find fidusialmarkører i 
   SCG-signalet
+- beregne MPI
 - alarmer læge ved forværring
   af patientens MPI og/eller 
   symptomer
@@ -110,10 +90,10 @@ Ansvar
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>840</x>
-      <y>250</y>
-      <w>210</w>
-      <h>190</h>
+      <x>490</x>
+      <y>240</y>
+      <w>105</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>bg=#0099cc
 Database
@@ -132,21 +112,21 @@ Ansvar
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1180</x>
-      <y>440</y>
-      <w>30</w>
-      <h>70</h>
+      <x>660</x>
+      <y>335</y>
+      <w>15</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1040</x>
-      <y>330</y>
-      <w>70</w>
-      <h>30</h>
+      <x>590</x>
+      <y>285</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;50.0;10.0</additional_attributes>
@@ -154,10 +134,10 @@ Ansvar
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>540</x>
-      <y>330</y>
-      <w>70</w>
-      <h>30</h>
+      <x>340</x>
+      <y>285</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
@@ -165,21 +145,21 @@ Ansvar
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>540</x>
-      <y>430</y>
-      <w>430</w>
-      <h>70</h>
+      <x>340</x>
+      <y>315</y>
+      <w>215</w>
+      <h>75</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>410.0;10.0;410.0;50.0;10.0;50.0</additional_attributes>
+    <additional_attributes>410.0;10.0;410.0;130.0;10.0;130.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>790</x>
-      <y>330</y>
-      <w>70</w>
-      <h>30</h>
+      <x>465</x>
+      <y>285</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
@@ -187,15 +167,14 @@ Ansvar
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1340</x>
-      <y>250</y>
-      <w>210</w>
-      <h>190</h>
+      <x>740</x>
+      <y>240</y>
+      <w>105</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>bg=#0099cc
 LægeInterface
 --
-lægeatributter
 lægeguide
 patientguide
 --
@@ -210,15 +189,14 @@ Ansvar
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>90</x>
-      <y>260</y>
-      <w>210</w>
-      <h>190</h>
+      <x>115</x>
+      <y>240</y>
+      <w>105</w>
+      <h>65</h>
     </coordinates>
     <panel_attributes>bg=#0099cc
 PatientInterface
 --
-patientatributter
 patientguide
 --
 Ansvar
@@ -231,10 +209,10 @@ Ansvar
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>290</x>
-      <y>330</y>
-      <w>70</w>
-      <h>30</h>
+      <x>215</x>
+      <y>285</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
@@ -242,12 +220,102 @@ Ansvar
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1290</x>
-      <y>330</y>
-      <w>70</w>
-      <h>30</h>
+      <x>715</x>
+      <y>285</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;50.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>240</x>
+      <y>315</y>
+      <w>105</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>bg=#0099cc
+Patient
+--
+fornavn
+efternavn
+cprNr.
+adgangskode
+adresse
+kontaktoplysninger
+symptomer
+funktionsklasseNYHA
+--
+Ansvar
+- indskriv patientdata 
+- opdatere patientdata</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>155</x>
+      <y>300</y>
+      <w>95</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>170.0;160.0;10.0;160.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>490</x>
+      <y>130</y>
+      <w>105</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>bg=#0099cc
+Login
+--
+klinik
+bugernavn
+password
+--
+Ansvar
+- håndter og valider login
+- åbne tilhørende interface
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>170</y>
+      <w>215</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>410.0;140.0;410.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>155</x>
+      <y>170</y>
+      <w>345</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;140.0;10.0;10.0;670.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>535</x>
+      <y>190</y>
+      <w>15</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
