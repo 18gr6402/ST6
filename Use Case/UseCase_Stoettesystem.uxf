@@ -9,7 +9,7 @@
       <w>590</w>
       <h>490</h>
     </coordinates>
-    <panel_attributes>TIMMY
+    <panel_attributes>Støttesystem
 halign=left</panel_attributes>
     <additional_attributes/>
   </element>
@@ -54,7 +54,7 @@ drawArc(0,height*3/5,width,height*2/5,180,180,true) fg=black bg=#222222 //Parame
       <w>220</w>
       <h>100</h>
     </coordinates>
-    <panel_attributes>Alarmér læge</panel_attributes>
+    <panel_attributes>Alarmer læge</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -65,7 +65,8 @@ drawArc(0,height*3/5,width,height*2/5,180,180,true) fg=black bg=#222222 //Parame
       <w>220</w>
       <h>100</h>
     </coordinates>
-    <panel_attributes>MPI-dataanalyse</panel_attributes>
+    <panel_attributes>MPI- og
+symptomdataanalyse</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -101,7 +102,7 @@ drawArc(0,height*3/5,width,height*2/5,180,180,true) fg=black bg=#222222 //Parame
       <h>50</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Actor&gt;&gt;
-Støttesystem
+TIMMY
 halign=center</panel_attributes>
     <additional_attributes/>
   </element>
