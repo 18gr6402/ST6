@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="424.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text layoutX="120.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Guide i SCG opsamling:">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text layoutX="18.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Intro: intro målingerne (tid, hvad, hvordan)" wrappingWidth="555.087890625" />
+      <Text layoutX="16.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Step 1: Tryk på knappen “Start Måling” hvorefter en timer starter (skærmbillede vises)" />
+      <Text layoutX="16.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Step 2: Placer herefter smartphonen ved brystbenet som vist på billedet (billede vises)" />
+      <Text layoutX="16.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Step 3: Lig stille! (billede vises)" />
+      <Text layoutX="14.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Step 4: Når du hører 3 “bip” og mærker en vibration er dette indikation for at målingen er" />
+      <Text layoutX="63.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="startet" />
+      <Text layoutX="14.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Step 5: Når du hører 1 “bip” indikerer det, at målingen er afsluttet" />
+      <Text layoutX="14.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Step 6: Nu skal du vælge om målingen er blevet foretaget korrekt (skærmbillede)" />
+      <Text layoutX="63.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="hvis du hostede eller på anden måde bevægede dig under målingen, bør du her" />
+      <Text layoutX="63.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="trykke nej og foretage en ny måling (og du føres tilbage til startsiden). " />
+      <Text layoutX="14.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Step 7: Hvis målingen var korrekt, skal du nu indberette symptomer (jo højere tal jo værre" />
+      <Text layoutX="63.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="er symptomer) og trykke “OK”. (Skærmbillede)" />
+      <Text layoutX="14.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Step 8: Nu kan du vælge at indsende data eller gå tilbage og redigere i symptomer" />
+      <Text layoutX="63.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(skærmbillede)" />
+      <Text layoutX="14.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Step 9: Hvis dataen indsendes korrekt får du besked om dette, hvorefter du kan trykke &quot;Ok&quot;" />
+      <Text layoutX="63.0" layoutY="392.0" strokeType="OUTSIDE" strokeWidth="0.0" text="og føres tilbage til hovedmenuen. Indsendes dataen ikke korrekt vil der poppe" />
+      <Text layoutX="63.0" layoutY="413.0" strokeType="OUTSIDE" strokeWidth="0.0" text="en fejlmeddelelse på. (skærmbillede) " />
+   </children>
+</AnchorPane>
