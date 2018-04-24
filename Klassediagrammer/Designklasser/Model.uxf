@@ -4,12 +4,173 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>20</x>
-      <y>20</y>
-      <w>100</w>
-      <h>30</h>
+      <x>510</x>
+      <y>440</y>
+      <w>290</w>
+      <h>270</h>
     </coordinates>
-    <panel_attributes>SimpleClass</panel_attributes>
+    <panel_attributes>&lt;&lt;Model&gt;&gt;
+Clinic
+-
+- clinicID: StringProperty
+- clinicname: StringProperty
+- region: StringProperty
+-
++ Clinic()
++ setClinicID
++ getClinicID
++ ClinicIDProperty
++ setClinicName
++ getClinicName
++ ClinicNameProperty
++ setRegion
++ getRegion
++ RegionProperty
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>170</x>
+      <y>120</y>
+      <w>290</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Model&gt;&gt;
+User
+-
+- firstname: StringProperty
+- lastname: StringProperty
+- password: StringProperty
+-
++ User()
++ setFirstName (firstname : String) : Void
++ getFirstName() : String
++ FirstNameProperty : StringProperty
++ setLastName (lastname : String) : Void
++ getLastName() : String
++ LastNameProperty : StringProperty
++ setPassword (password : String) : Void
++ getPassword() : String
++ PasswordProperty : StringProperty
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>850</x>
+      <y>120</y>
+      <w>290</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Model&gt;&gt;
+Patient
+-
+- CPR: IntegerProperty
+- NYHA: StringProperty
+- symptomThreshold: IntegerProperty
+- mpiThreshold: IntegerProperty
+-
++ getNYHA
++ getCPR
++ getSymptomThreshold
++ getMPIThreshold
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1180</x>
+      <y>120</y>
+      <w>290</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Model&gt;&gt;
+Practitioner
+-
+- employmentID: StringProperty
+- administrator?
+-
++ setNYHA
++ setCPR
++ getEmploymentID
++ setSymptomThreshold
++ setMPIThreshold --&gt; potentielt get, fordi det
+er støttesystemet som fikser det?
++ update? --&gt; ved begge thresholds
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>170</x>
+      <y>440</y>
+      <w>290</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>Administrator?
+-
+-
+setEmploymentID</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>510</x>
+      <y>120</y>
+      <w>290</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Model&gt;&gt;
+Heartfailure telemonitoring
+-
+- date: ObjectProperty &lt;TimeStampt&gt;
+- fiducial markers: IntegerProperty
+- SCG: IntegerProperty
+- MPI: IntegerProperty?
+-
++ setDate
++ getDate
++ getFiducialMarkers
++ getSCG
++ getMPI
+--&gt; ingen set fordi støttesystemet fikser det?
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>850</x>
+      <y>440</y>
+      <w>290</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Model&gt;&gt;
+Symptomer
+-
+- dato: ObjectProperty &lt;TimeStampt&gt;
+- weight: IntegerProperty
+- angina: StringProperty
+- shortness of breath: Stringproperty
+- fatigue: StringProperty
+- MPI: IntegerProperty?
+-
++ setDate
++ getDate
+-&gt; overvej om den skal laves som enumerate
+
+</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
