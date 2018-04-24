@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>632</x>
-      <y>400</y>
+      <x>624</x>
+      <y>96</y>
       <w>168</w>
       <h>72</h>
     </coordinates>
@@ -21,7 +21,7 @@ Ansvar
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>224</x>
+      <x>216</x>
       <y>208</y>
       <w>168</w>
       <h>104</h>
@@ -42,18 +42,15 @@ Ansvar
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>632</x>
+      <x>624</x>
       <y>208</y>
       <w>168</w>
-      <h>160</h>
+      <h>120</h>
     </coordinates>
     <panel_attributes>bg=#0099cc
 Practitioner
 --
-firstName
-lastName
 employmentID
-password
 --
 Ansvar
 - oprette patient
@@ -67,7 +64,7 @@ Ansvar
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>424</x>
+      <x>416</x>
       <y>208</y>
       <w>176</w>
       <h>144</h>
@@ -81,26 +78,27 @@ Ansvar
 - forbind til database
 - skriv og læs patient- og 
 lægeoplysninger til/fra databasen
-- skriv og læs SCG signal og 
-parametre til/fra databasen
+- skriv og læs SCG-signal, 
+parametre og symptomer til/fra 
+databasen
 - bryd forbindelse til database</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>704</x>
-      <y>360</y>
+      <x>696</x>
+      <y>160</y>
       <w>24</w>
-      <h>56</h>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>592</x>
+      <x>584</x>
       <y>280</y>
       <w>56</w>
       <h>24</h>
@@ -111,7 +109,7 @@ parametre til/fra databasen
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>384</x>
+      <x>376</x>
       <y>280</y>
       <w>56</w>
       <h>24</h>
@@ -122,18 +120,18 @@ parametre til/fra databasen
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>384</x>
+      <x>376</x>
       <y>344</y>
       <w>152</w>
-      <h>104</h>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>170.0;10.0;170.0;110.0;10.0;110.0</additional_attributes>
+    <additional_attributes>170.0;10.0;170.0;60.0;10.0;60.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>832</x>
+      <x>824</x>
       <y>208</y>
       <w>168</w>
       <h>104</h>
@@ -153,7 +151,7 @@ Ansvar
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>24</x>
+      <x>16</x>
       <y>208</y>
       <w>168</w>
       <h>104</h>
@@ -173,7 +171,7 @@ Ansvar
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>184</x>
+      <x>176</x>
       <y>280</y>
       <w>56</w>
       <h>24</h>
@@ -184,7 +182,7 @@ Ansvar
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>792</x>
+      <x>784</x>
       <y>280</y>
       <w>56</w>
       <h>24</h>
@@ -195,44 +193,39 @@ Ansvar
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>224</x>
+      <x>216</x>
       <y>328</y>
       <w>168</w>
-      <h>176</h>
+      <h>112</h>
     </coordinates>
     <panel_attributes>bg=#0099cc
 Patient
 --
-firstName
-lastName
 cprNr.
-password
-address
-contactInformation
 classificationNYHA
+thresholds
 --
 Ansvar
 - indskriv patientdata 
-- opdatere patientdata
-- slette patientdata</panel_attributes>
+- opdatere patientdata</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>88</x>
+      <x>80</x>
       <y>304</y>
       <w>152</w>
-      <h>144</h>
+      <h>104</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>170.0;160.0;10.0;160.0;10.0;10.0</additional_attributes>
+    <additional_attributes>170.0;110.0;10.0;110.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>432</x>
-      <y>72</y>
+      <x>424</x>
+      <y>16</y>
       <w>168</w>
       <h>104</h>
     </coordinates>
@@ -252,34 +245,76 @@ Ansvar
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>592</x>
-      <y>136</y>
+      <x>584</x>
+      <y>80</y>
       <w>344</w>
-      <h>88</h>
+      <h>144</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>410.0;90.0;410.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>410.0;160.0;410.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>88</x>
-      <y>136</y>
+      <x>80</x>
+      <y>80</y>
       <w>360</w>
-      <h>88</h>
+      <h>144</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;90.0;10.0;10.0;430.0;10.0</additional_attributes>
+    <additional_attributes>10.0;160.0;10.0;10.0;430.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>504</x>
-      <y>168</y>
+      <x>496</x>
+      <y>112</y>
       <w>24</w>
-      <h>56</h>
+      <h>112</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>424</x>
+      <y>432</y>
+      <w>168</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>bg=#0099cc
+User
+--
+firstName
+lastName
+password
+--
+Ansvar
+- indskriv brugerdata
+- opdater brugerdata</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>584</x>
+      <y>320</y>
+      <w>144</w>
+      <h>184</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>160.0;10.0;160.0;210.0;10.0;210.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>288</x>
+      <y>432</y>
+      <w>152</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0;170.0;70.0</additional_attributes>
   </element>
 </diagram>
