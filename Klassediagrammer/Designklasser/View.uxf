@@ -4,13 +4,17 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>18</x>
-      <y>18</y>
+      <x>24</x>
+      <y>276</y>
       <w>120</w>
-      <h>30</h>
+      <h>90</h>
     </coordinates>
     <panel_attributes>&lt;&lt;View&gt;&gt;
-RootLayout</panel_attributes>
+RootLayout
+--
++ borderPane: BorderPane
+
+--</panel_attributes>
     <additional_attributes/>
   </element>
   <element>

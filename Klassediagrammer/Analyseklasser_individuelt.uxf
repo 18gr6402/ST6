@@ -4,10 +4,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>280</x>
-      <y>370</y>
+      <x>250</x>
+      <y>310</y>
       <w>210</w>
-      <h>270</h>
+      <h>250</h>
     </coordinates>
     <panel_attributes>bg=#0099cc
 Administrator
@@ -25,10 +25,10 @@ Ansvar
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>510</x>
-      <y>80</y>
+      <x>480</x>
+      <y>20</y>
       <w>210</w>
-      <h>270</h>
+      <h>250</h>
     </coordinates>
     <panel_attributes>bg=#0099cc
 SCGmeasure
@@ -49,18 +49,15 @@ Ansvar
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1210</x>
-      <y>80</y>
+      <x>1180</x>
+      <y>20</y>
       <w>210</w>
-      <h>270</h>
+      <h>250</h>
     </coordinates>
     <panel_attributes>bg=#0099cc
 Practitioner
 --
-firstName
-lastName
 employmentID
-password
 --
 add()
 update()
@@ -78,10 +75,10 @@ Ansvar
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>970</x>
-      <y>80</y>
+      <x>940</x>
+      <y>20</y>
       <w>220</w>
-      <h>270</h>
+      <h>250</h>
     </coordinates>
     <panel_attributes>bg=#0099cc
 DatabaseOperations
@@ -97,18 +94,19 @@ Ansvar
 - forbind til database
 - skriv og læs patient- og 
 lægeoplysninger til/fra databasen
-- skriv og læs SCG signal og 
-parametre til/fra databasen
+- skriv og læs SCG-signal, 
+parametre og symptomer til/fra 
+databasen
 - bryd forbindelse til database</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>50</x>
-      <y>370</y>
+      <x>20</x>
+      <y>310</y>
       <w>210</w>
-      <h>270</h>
+      <h>250</h>
     </coordinates>
     <panel_attributes>bg=#0099cc
 PractitionerInterface
@@ -117,7 +115,6 @@ patientGuide
 --
 get()
 show()
-guide()
 --
 Ansvar
 - hent patient- og lægedata 
@@ -129,10 +126,10 @@ Ansvar
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>280</x>
-      <y>80</y>
+      <x>250</x>
+      <y>20</y>
       <w>210</w>
-      <h>270</h>
+      <h>250</h>
     </coordinates>
     <panel_attributes>bg=#0099cc
 PatientInterface
@@ -141,7 +138,6 @@ patientGuide
 --
 get()
 show()
-guide()
 --
 Ansvar
 - hent patientdata
@@ -153,39 +149,30 @@ Ansvar
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>740</x>
-      <y>80</y>
+      <x>710</x>
+      <y>20</y>
       <w>210</w>
-      <h>270</h>
+      <h>250</h>
     </coordinates>
     <panel_attributes>bg=#0099cc
 Patient
 --
-firstName
-lastName
 cprNr.
-password
-address
-contactInformation
 classificationNYHA
---
-add()
-update()
-delete()
+thresholds
 --
 Ansvar
 - indskriv patientdata 
-- opdatere patientdata
-- slette patientdata</panel_attributes>
+- opdatere patientdata</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>50</x>
-      <y>80</y>
+      <x>20</x>
+      <y>20</y>
       <w>210</w>
-      <h>270</h>
+      <h>250</h>
     </coordinates>
     <panel_attributes>bg=#0099cc
 Login
@@ -201,6 +188,29 @@ Ansvar
 - håndter og valider login
 - åbne tilhørende interface
 </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>310</y>
+      <w>210</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>bg=#0099cc
+User
+--
+firstName
+lastName
+password
+--
+add()
+update()
+--
+Ansvar
+- indskriv brugerdata
+- opdater brugerdata</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
