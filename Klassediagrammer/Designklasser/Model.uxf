@@ -4,26 +4,23 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>510</x>
-      <y>440</y>
+      <x>530</x>
+      <y>130</y>
       <w>290</w>
       <h>270</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Model&gt;&gt;
 Clinic
 -
-- clinicID: StringProperty
+- clinicID: IntegerProperty
 - clinicname: StringProperty
 - region: StringProperty
 -
 + Clinic()
-+ setClinicID
 + getClinicID
 + ClinicIDProperty
-+ setClinicName
 + getClinicName
 + ClinicNameProperty
-+ setRegion
 + getRegion
 + RegionProperty
 
@@ -34,8 +31,8 @@ Clinic
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>170</x>
-      <y>120</y>
+      <x>190</x>
+      <y>130</y>
       <w>290</w>
       <h>270</h>
     </coordinates>
@@ -63,8 +60,8 @@ User
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>850</x>
-      <y>120</y>
+      <x>870</x>
+      <y>130</y>
       <w>290</w>
       <h>270</h>
     </coordinates>
@@ -76,8 +73,13 @@ Patient
 - symptomThreshold: IntegerProperty
 - mpiThreshold: IntegerProperty
 -
++ Patient()
++ setNYHA
 + getNYHA
++ NYHAProperty
++ setCPR
 + getCPR
++ CPRProperty
 + getSymptomThreshold
 + getMPIThreshold
 
@@ -87,88 +89,85 @@ Patient
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1180</x>
-      <y>120</y>
+      <x>1210</x>
+      <y>130</y>
       <w>290</w>
       <h>270</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Model&gt;&gt;
 Practitioner
 -
-- employmentID: StringProperty
-- administrator?
+- employmentID: IntegerProperty
 -
-+ setNYHA
-+ setCPR
++ Practitioner()
++ setEmploymentID
 + getEmploymentID
++ EmploymentIDProperty
 + setSymptomThreshold
-+ setMPIThreshold --&gt; potentielt get, fordi det
-er støttesystemet som fikser det?
-+ update? --&gt; ved begge thresholds
++ setMPIThreshold
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>170</x>
-      <y>440</y>
+      <x>190</x>
+      <y>450</y>
       <w>290</w>
       <h>270</h>
     </coordinates>
-    <panel_attributes>Administrator?
+    <panel_attributes>Administrator
 -
+- administrator: BooleanProperty
 -
-setEmploymentID</panel_attributes>
++ Administrator()
++ setAdministrator()
++ getAdministrator()
++ AdministratorProperty()
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>510</x>
-      <y>120</y>
+      <x>530</x>
+      <y>450</y>
       <w>290</w>
-      <h>270</h>
+      <h>480</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Model&gt;&gt;
-Heartfailure telemonitoring
+SCGMeasure
 -
 - date: ObjectProperty &lt;TimeStampt&gt;
-- fiducial markers: IntegerProperty
-- SCG: IntegerProperty
-- MPI: IntegerProperty?
+- fiducialmarkers: IntegerProperty
+- scg: IntegerProperty
+- mpi: IntegerProperty
+- weight: IntegerProperty
+- angina: StringProperty
+- shortness of breath: IntegerProperty
+- fatigue: IntegerProperty
 -
++ SCGMeasure()
 + setDate
 + getDate
 + getFiducialMarkers
++ setSCG
 + getSCG
++ SCGProperty
 + getMPI
---&gt; ingen set fordi støttesystemet fikser det?
++ setWeight
++ getWeight
++ WeightProperty
++ setAngina
++ getAngina
++ AnginaProperty
++ setShortnessOfBreath
++ getShortnessOfBreath
++ ShortnessOfBreathProperty
++ setFatigue
++ getFatigue
++ FatigueProperty
 
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>850</x>
-      <y>440</y>
-      <w>290</w>
-      <h>270</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;Model&gt;&gt;
-Symptomer
--
-- dato: ObjectProperty &lt;TimeStampt&gt;
-- weight: IntegerProperty
-- angina: StringProperty
-- shortness of breath: Stringproperty
-- fatigue: StringProperty
-- MPI: IntegerProperty?
--
-+ setDate
-+ getDate
--&gt; overvej om den skal laves som enumerate
 
 </panel_attributes>
     <additional_attributes/>
