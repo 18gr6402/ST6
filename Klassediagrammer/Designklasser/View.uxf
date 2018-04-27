@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>9</zoom_level>
+  <zoom_level>7</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>18</x>
-      <y>531</y>
-      <w>180</w>
-      <h>135</h>
+      <x>42</x>
+      <y>42</y>
+      <w>140</w>
+      <h>105</h>
     </coordinates>
     <panel_attributes>&lt;&lt;View&gt;&gt;
 RootLayout
@@ -20,10 +20,10 @@ RootLayout
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>576</x>
-      <y>279</y>
-      <w>180</w>
-      <h>45</h>
+      <x>483</x>
+      <y>210</y>
+      <w>140</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>&lt;&lt;View&gt;&gt;
 MenuPatient</panel_attributes>
@@ -32,10 +32,10 @@ MenuPatient</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>9</x>
-      <y>306</y>
-      <w>180</w>
-      <h>45</h>
+      <x>42</x>
+      <y>231</y>
+      <w>140</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>&lt;&lt;View&gt;&gt;
 Login</panel_attributes>
@@ -44,10 +44,10 @@ Login</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>387</x>
-      <y>279</y>
-      <w>180</w>
-      <h>45</h>
+      <x>336</x>
+      <y>210</y>
+      <w>140</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>&lt;&lt;View&gt;&gt;
 NewUser</panel_attributes>
@@ -56,10 +56,10 @@ NewUser</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>198</x>
-      <y>306</y>
-      <w>180</w>
-      <h>45</h>
+      <x>189</x>
+      <y>231</y>
+      <w>140</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>&lt;&lt;View&gt;&gt;
 NewPatient</panel_attributes>
@@ -68,10 +68,10 @@ NewPatient</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>387</x>
-      <y>333</y>
-      <w>180</w>
-      <h>45</h>
+      <x>336</x>
+      <y>252</y>
+      <w>140</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>&lt;&lt;View&gt;&gt;
 NewPractioner</panel_attributes>
@@ -80,10 +80,10 @@ NewPractioner</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>765</x>
-      <y>333</y>
-      <w>180</w>
-      <h>45</h>
+      <x>630</x>
+      <y>252</y>
+      <w>140</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>&lt;&lt;View&gt;&gt;
 ProfilPractioner</panel_attributes>
@@ -92,10 +92,10 @@ ProfilPractioner</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>576</x>
-      <y>333</y>
-      <w>180</w>
-      <h>45</h>
+      <x>483</x>
+      <y>252</y>
+      <w>140</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>&lt;&lt;View&gt;&gt;
 MenuPractioner</panel_attributes>
@@ -104,10 +104,10 @@ MenuPractioner</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>765</x>
-      <y>279</y>
-      <w>180</w>
-      <h>45</h>
+      <x>630</x>
+      <y>210</y>
+      <w>140</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>&lt;&lt;View&gt;&gt;
 ProfilPatient</panel_attributes>
@@ -116,10 +116,10 @@ ProfilPatient</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>954</x>
-      <y>306</y>
-      <w>180</w>
-      <h>45</h>
+      <x>777</x>
+      <y>231</y>
+      <w>140</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>&lt;&lt;View&gt;&gt;
 EditProfil</panel_attributes>
@@ -128,10 +128,10 @@ EditProfil</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>765</x>
-      <y>495</y>
-      <w>180</w>
-      <h>45</h>
+      <x>630</x>
+      <y>378</y>
+      <w>140</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>&lt;&lt;View&gt;&gt;
 PatientOverview</panel_attributes>
@@ -140,10 +140,10 @@ PatientOverview</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>954</x>
-      <y>414</y>
-      <w>180</w>
-      <h>45</h>
+      <x>777</x>
+      <y>315</y>
+      <w>140</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>&lt;&lt;View&gt;&gt;
 AddPatient</panel_attributes>
@@ -152,10 +152,10 @@ AddPatient</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>954</x>
-      <y>468</y>
-      <w>180</w>
-      <h>45</h>
+      <x>777</x>
+      <y>357</y>
+      <w>140</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>&lt;&lt;View&gt;&gt;
 EditPatient</panel_attributes>
@@ -164,10 +164,10 @@ EditPatient</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>954</x>
-      <y>522</y>
-      <w>180</w>
-      <h>45</h>
+      <x>777</x>
+      <y>399</y>
+      <w>140</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>&lt;&lt;View&gt;&gt;
 DeletePatientDialog</panel_attributes>
@@ -176,10 +176,10 @@ DeletePatientDialog</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>954</x>
-      <y>576</y>
-      <w>180</w>
-      <h>45</h>
+      <x>777</x>
+      <y>441</y>
+      <w>140</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>&lt;&lt;View&gt;&gt;
 ViewSCG</panel_attributes>
@@ -188,10 +188,10 @@ ViewSCG</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>765</x>
-      <y>657</y>
-      <w>180</w>
-      <h>45</h>
+      <x>630</x>
+      <y>504</y>
+      <w>140</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>&lt;&lt;View&gt;&gt;
 PatientWarnings</panel_attributes>
@@ -200,10 +200,10 @@ PatientWarnings</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>765</x>
-      <y>774</y>
-      <w>180</w>
-      <h>45</h>
+      <x>630</x>
+      <y>595</y>
+      <w>140</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>&lt;&lt;View&gt;&gt;
 PractionerOverview</panel_attributes>
@@ -212,10 +212,10 @@ PractionerOverview</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>954</x>
-      <y>747</y>
-      <w>180</w>
-      <h>45</h>
+      <x>777</x>
+      <y>574</y>
+      <w>140</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>&lt;&lt;View&gt;&gt;
 AddPractioner</panel_attributes>
@@ -224,22 +224,22 @@ AddPractioner</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>954</x>
-      <y>801</y>
-      <w>180</w>
-      <h>45</h>
+      <x>777</x>
+      <y>616</y>
+      <w>140</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>&lt;&lt;View&gt;&gt;
-DeletePractioner</panel_attributes>
+DeletePractionerDialog</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>765</x>
-      <y>171</y>
-      <w>180</w>
-      <h>45</h>
+      <x>630</x>
+      <y>126</y>
+      <w>140</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>&lt;&lt;View&gt;&gt;
 CollectSCG</panel_attributes>
@@ -248,10 +248,10 @@ CollectSCG</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>954</x>
-      <y>144</y>
-      <w>180</w>
-      <h>45</h>
+      <x>777</x>
+      <y>105</y>
+      <w>140</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>&lt;&lt;View&gt;&gt;
 ViewGuide</panel_attributes>
@@ -260,10 +260,10 @@ ViewGuide</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>954</x>
-      <y>198</y>
-      <w>180</w>
-      <h>45</h>
+      <x>777</x>
+      <y>147</y>
+      <w>140</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>&lt;&lt;View&gt;&gt;
 Measure</panel_attributes>
@@ -272,10 +272,10 @@ Measure</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1143</x>
-      <y>198</y>
-      <w>180</w>
-      <h>45</h>
+      <x>924</x>
+      <y>147</y>
+      <w>140</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>&lt;&lt;View&gt;&gt;
 ConfirmMeasure</panel_attributes>
@@ -284,22 +284,10 @@ ConfirmMeasure</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1332</x>
-      <y>198</y>
-      <w>180</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;View&gt;&gt;
-ChangeSymptoms</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>1521</x>
-      <y>198</y>
-      <w>180</w>
-      <h>45</h>
+      <x>1071</x>
+      <y>147</y>
+      <w>140</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>&lt;&lt;View&gt;&gt;
 EditSymptoms</panel_attributes>
@@ -308,25 +296,25 @@ EditSymptoms</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1710</x>
-      <y>198</y>
-      <w>180</w>
-      <h>45</h>
+      <x>1218</x>
+      <y>147</y>
+      <w>140</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>&lt;&lt;View&gt;&gt;
-ConfirmSymptoms</panel_attributes>
+Acknowledge</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1899</x>
-      <y>198</y>
-      <w>180</w>
-      <h>45</h>
+      <x>924</x>
+      <y>357</y>
+      <w>140</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>&lt;&lt;View&gt;&gt;
-Acknowledge</panel_attributes>
+ResetThresholdDialog</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
