@@ -28,8 +28,8 @@ fontfamily=Monospaced //possible: SansSerif,Serif,Monospaced
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>12</x>
-      <y>136</y>
+      <x>16</x>
+      <y>152</y>
       <w>80</w>
       <h>24</h>
     </coordinates>
@@ -40,8 +40,8 @@ RootLayoutCtrl</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>440</x>
-      <y>200</y>
+      <x>444</x>
+      <y>216</y>
       <w>176</w>
       <h>52</h>
     </coordinates>
@@ -59,8 +59,8 @@ bg=pink</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>8</x>
-      <y>248</y>
+      <x>12</x>
+      <y>264</y>
       <w>136</w>
       <h>112</h>
     </coordinates>
@@ -88,8 +88,8 @@ bg=pink</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>148</x>
-      <y>248</y>
+      <x>152</x>
+      <y>264</y>
       <w>148</w>
       <h>88</h>
     </coordinates>
@@ -108,8 +108,8 @@ bg=pink</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>300</x>
-      <y>180</y>
+      <x>304</x>
+      <y>196</y>
       <w>136</w>
       <h>72</h>
     </coordinates>
@@ -132,8 +132,8 @@ bg=pink</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>300</x>
-      <y>256</y>
+      <x>304</x>
+      <y>272</y>
       <w>136</w>
       <h>72</h>
     </coordinates>
@@ -156,8 +156,8 @@ bg=pink</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>440</x>
-      <y>256</y>
+      <x>444</x>
+      <y>272</y>
       <w>176</w>
       <h>60</h>
     </coordinates>
@@ -178,8 +178,8 @@ bg=pink</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>620</x>
-      <y>432</y>
+      <x>624</x>
+      <y>448</y>
       <w>176</w>
       <h>120</h>
     </coordinates>
@@ -210,8 +210,8 @@ PatientOverviewCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>800</x>
-      <y>360</y>
+      <x>804</x>
+      <y>376</y>
       <w>136</w>
       <h>56</h>
     </coordinates>
@@ -231,8 +231,8 @@ AddPatientCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>800</x>
-      <y>420</y>
+      <x>804</x>
+      <y>436</y>
       <w>136</w>
       <h>68</h>
     </coordinates>
@@ -254,8 +254,8 @@ EditPatientCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>800</x>
-      <y>492</y>
+      <x>804</x>
+      <y>508</y>
       <w>136</w>
       <h>64</h>
     </coordinates>
@@ -276,8 +276,8 @@ DeletePatientDialogCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>800</x>
-      <y>560</y>
+      <x>804</x>
+      <y>576</y>
       <w>136</w>
       <h>80</h>
     </coordinates>
@@ -301,8 +301,8 @@ ViewSCGCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>620</x>
-      <y>664</y>
+      <x>624</x>
+      <y>680</y>
       <w>176</w>
       <h>96</h>
     </coordinates>
@@ -329,8 +329,8 @@ PatientWarningsCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>620</x>
-      <y>796</y>
+      <x>624</x>
+      <y>812</y>
       <w>176</w>
       <h>92</h>
     </coordinates>
@@ -356,8 +356,8 @@ PractionerOverviewCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>800</x>
-      <y>784</y>
+      <x>804</x>
+      <y>800</y>
       <w>136</w>
       <h>52</h>
     </coordinates>
@@ -376,8 +376,8 @@ AddPractionerCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>800</x>
-      <y>840</y>
+      <x>804</x>
+      <y>856</y>
       <w>136</w>
       <h>64</h>
     </coordinates>
@@ -398,8 +398,8 @@ DeletePractionerDialogCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>620</x>
-      <y>44</y>
+      <x>624</x>
+      <y>60</y>
       <w>176</w>
       <h>56</h>
     </coordinates>
@@ -418,8 +418,8 @@ CollectSCGCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>800</x>
-      <y>12</y>
+      <x>804</x>
+      <y>28</y>
       <w>136</w>
       <h>36</h>
     </coordinates>
@@ -435,8 +435,8 @@ ViewGuideCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>800</x>
-      <y>52</y>
+      <x>804</x>
+      <y>68</y>
       <w>136</w>
       <h>32</h>
     </coordinates>
@@ -452,8 +452,8 @@ MeasureCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>940</x>
-      <y>56</y>
+      <x>944</x>
+      <y>72</y>
       <w>136</w>
       <h>44</h>
     </coordinates>
@@ -472,8 +472,8 @@ ConfirmMeasureCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1080</x>
-      <y>56</y>
+      <x>1084</x>
+      <y>72</y>
       <w>148</w>
       <h>72</h>
     </coordinates>
@@ -496,8 +496,8 @@ EditSymptomsCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1232</x>
-      <y>56</y>
+      <x>1236</x>
+      <y>72</y>
       <w>120</w>
       <h>52</h>
     </coordinates>
@@ -514,8 +514,8 @@ AcknowledgeCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>620</x>
-      <y>184</y>
+      <x>624</x>
+      <y>200</y>
       <w>176</w>
       <h>68</h>
     </coordinates>
@@ -538,8 +538,8 @@ bg=pink</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>800</x>
-      <y>244</y>
+      <x>804</x>
+      <y>260</y>
       <w>136</w>
       <h>72</h>
     </coordinates>
@@ -562,8 +562,8 @@ bg=pink</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>620</x>
-      <y>256</y>
+      <x>624</x>
+      <y>272</y>
       <w>176</w>
       <h>72</h>
     </coordinates>
@@ -586,8 +586,8 @@ bg=pink</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>940</x>
-      <y>420</y>
+      <x>944</x>
+      <y>436</y>
       <w>136</w>
       <h>44</h>
     </coordinates>
