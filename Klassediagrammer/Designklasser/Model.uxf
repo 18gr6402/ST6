@@ -28,7 +28,7 @@ fontfamily=SansSerif //possible: SansSerif,Serif,Monospaced
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>470</x>
+      <x>480</x>
       <y>80</y>
       <w>290</w>
       <h>270</h>
@@ -41,12 +41,12 @@ Clinic
 - region: StringProperty
 -
 + Clinic()
-+ getClinicID
-+ ClinicIDProperty
-+ getClinicName
-+ ClinicNameProperty
-+ getRegion
-+ RegionProperty
++ getClinicID() : int
++ ClinicIDProperty() : IntegerProperty
++ getClinicName() : String
++ ClinicNameProperty() : StringProperty
++ getRegion() : String
++ RegionProperty() : StringProperty
 
 
 </panel_attributes>
@@ -55,7 +55,7 @@ Clinic
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>130</x>
+      <x>140</x>
       <y>80</y>
       <w>290</w>
       <h>270</h>
@@ -68,15 +68,15 @@ User
 - password: StringProperty
 -
 + User()
-+ setFirstName (firstname : String) : Void
++ setFirstName(firstname : String) : void
 + getFirstName() : String
-+ FirstNameProperty : StringProperty
-+ setLastName (lastname : String) : Void
++ FirstNameProperty() : StringProperty
++ setLastName(lastname : String) : void
 + getLastName() : String
-+ LastNameProperty : StringProperty
-+ setPassword (password : String) : Void
++ LastNameProperty() : StringProperty
++ setPassword(password : String) : void
 + getPassword() : String
-+ PasswordProperty : StringProperty
++ PasswordProperty() : StringProperty
 
 </panel_attributes>
     <additional_attributes/>
@@ -84,7 +84,7 @@ User
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>810</x>
+      <x>820</x>
       <y>80</y>
       <w>290</w>
       <h>270</h>
@@ -92,20 +92,20 @@ User
     <panel_attributes>&lt;&lt;Model&gt;&gt;
 Patient
 -
-- CPR: IntegerProperty
-- NYHA: StringProperty
+- cpr: IntegerProperty
+- nyha: StringProperty
 - symptomThreshold: IntegerProperty
 - mpiThreshold: IntegerProperty
 -
 + Patient()
-+ setNYHA
-+ getNYHA
-+ NYHAProperty
-+ setCPR
-+ getCPR
-+ CPRProperty
-+ getSymptomThreshold
-+ getMPIThreshold
++ setCPR(cpr : String) : void
++ getCPR() : String 
++ CPRProperty() : StringProperty
++ setNYHA(nyha : String) : void
++ getNYHA() : String
++ NYHAProperty() : StringProperty
++ getSymptomThreshold() : int
++ getMPIThreshold() : int
 
 </panel_attributes>
     <additional_attributes/>
@@ -113,9 +113,9 @@ Patient
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1150</x>
+      <x>1160</x>
       <y>80</y>
-      <w>290</w>
+      <w>370</w>
       <h>270</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Model&gt;&gt;
@@ -125,24 +125,23 @@ Practitioner
 - administrator: BooleanProperty
 -
 + Practitioner()
-+ setEmploymentID
-+ getEmploymentID
-+ EmploymentIDProperty
-+ setSymptomThreshold
-+ setMPIThreshold
-+ Administrator()
-+ setAdministrator()
-+ getAdministrator()
-+ AdministratorProperty()
++ setEmploymentID(employmentID : int) : void 
++ getEmploymentID() : int
++ EmploymentIDProperty() : IntegerProperty
++ setSymptomThreshold(symptomThreshold : int) : void
++ setMPIThreshold(mpiThreshold : int) : void
++ setAdministrator(administrator : boolean) : void
++ getAdministrator() : boolean
++ AdministratorProperty() : BooleanProperty
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>470</x>
+      <x>480</x>
       <y>400</y>
-      <w>290</w>
+      <w>380</w>
       <h>480</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Model&gt;&gt;
@@ -150,33 +149,33 @@ SCGMeasure
 -
 - date: ObjectProperty &lt;TimeStampt&gt;
 - fiducialmarkers: IntegerProperty
-- scg: IntegerProperty
+- scg: IntegerProperty [1..*]{non-unique, ordered}
 - mpi: IntegerProperty
 - weight: IntegerProperty
 - angina: StringProperty
-- shortness of breath: IntegerProperty
+- shortnessofbreath: IntegerProperty
 - fatigue: IntegerProperty
 -
 + SCGMeasure()
 + setDate
 + getDate
-+ getFiducialMarkers
-+ setSCG
-+ getSCG
-+ SCGProperty
-+ getMPI
-+ setWeight
-+ getWeight
-+ WeightProperty
-+ setAngina
-+ getAngina
-+ AnginaProperty
-+ setShortnessOfBreath
-+ getShortnessOfBreath
-+ ShortnessOfBreathProperty
-+ setFatigue
-+ getFatigue
-+ FatigueProperty
++ getFiducialMarkers() : int
++ setSCG(scg : int) : void
++ getSCG() : int
++ SCGProperty() : IntegerProperty
++ getMPI() : int
++ setWeight(weight : int) : void
++ getWeight() : int
++ WeightProperty() : IntegerProperty
++ setAngina(angina : String) : void
++ getAngina() : String
++ AnginaProperty() : StringProperty
++ setShortnessOfBreath(shortnessofbreath : String) : void
++ getShortnessOfBreath() : String
++ ShortnessOfBreathProperty() : StringProperty
++ setFatigue(fatigue : String) : void
++ getFatigue() : String
++ FatigueProperty() : StringProperty
 
 
 </panel_attributes>
