@@ -5,7 +5,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>624</x>
-      <y>96</y>
+      <y>112</y>
       <w>168</w>
       <h>72</h>
     </coordinates>
@@ -22,7 +22,7 @@ Ansvar
     <id>UMLClass</id>
     <coordinates>
       <x>216</x>
-      <y>208</y>
+      <y>224</y>
       <w>168</w>
       <h>104</h>
     </coordinates>
@@ -31,10 +31,10 @@ SCGmeasure
 --
 signalSCG
 symptoms
-date/time
+date
 --
 Ansvar
-- registrere SCG-måling
+- registrere SCG-opsamling
 - håndtere symptomændringer
 </panel_attributes>
     <additional_attributes/>
@@ -43,7 +43,7 @@ Ansvar
     <id>UMLClass</id>
     <coordinates>
       <x>624</x>
-      <y>208</y>
+      <y>224</y>
       <w>168</w>
       <h>120</h>
     </coordinates>
@@ -53,11 +53,11 @@ Practitioner
 employmentID
 --
 Ansvar
-- oprette patient
-- udtræk patientdata
+- tilføje patient CPR
+- udtrække patientdata
 - indkalde patient
 - opdatere patient- og lægedata
-- slet patient- og lægedata
+- slette patient- og lægedata
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -65,7 +65,7 @@ Ansvar
     <id>UMLClass</id>
     <coordinates>
       <x>416</x>
-      <y>208</y>
+      <y>224</y>
       <w>176</w>
       <h>144</h>
     </coordinates>
@@ -75,20 +75,20 @@ DatabaseOperations
 data
 --
 Ansvar
-- forbind til database
-- skriv og læs patient- og 
+- forbinde til databasen
+- skrive og læse patient- og 
 lægeoplysninger til/fra databasen
-- skriv og læs SCG-signal, 
+- skrive og læse SCG-signal, 
 parametre og symptomer til/fra 
 databasen
-- bryd forbindelse til database</panel_attributes>
+- afbryde forbindelse til databasen</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>696</x>
-      <y>160</y>
+      <y>176</y>
       <w>24</w>
       <h>64</h>
     </coordinates>
@@ -99,7 +99,7 @@ databasen
     <id>Relation</id>
     <coordinates>
       <x>584</x>
-      <y>280</y>
+      <y>296</y>
       <w>56</w>
       <h>24</h>
     </coordinates>
@@ -110,7 +110,7 @@ databasen
     <id>Relation</id>
     <coordinates>
       <x>376</x>
-      <y>280</y>
+      <y>296</y>
       <w>56</w>
       <h>24</h>
     </coordinates>
@@ -121,7 +121,7 @@ databasen
     <id>Relation</id>
     <coordinates>
       <x>376</x>
-      <y>344</y>
+      <y>360</y>
       <w>152</w>
       <h>64</h>
     </coordinates>
@@ -132,7 +132,7 @@ databasen
     <id>UMLClass</id>
     <coordinates>
       <x>824</x>
-      <y>208</y>
+      <y>224</y>
       <w>168</w>
       <h>104</h>
     </coordinates>
@@ -142,9 +142,9 @@ PractitionerInterface
 patientGuide
 --
 Ansvar
-- hent patient- og lægedata 
-- vis patient- og lægedata
-- vis patientguiden
+- hente patient- og lægedata 
+- vise patient- og lægedata
+- vise patientguiden
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -152,7 +152,7 @@ Ansvar
     <id>UMLClass</id>
     <coordinates>
       <x>16</x>
-      <y>208</y>
+      <y>224</y>
       <w>168</w>
       <h>104</h>
     </coordinates>
@@ -162,8 +162,8 @@ PatientInterface
 patientGuide
 --
 Ansvar
-- hent patientdata
-- vis patientdata
+- hente patientdata
+- vise patientdata
 - guide patient i korrekt brug
  </panel_attributes>
     <additional_attributes/>
@@ -172,7 +172,7 @@ Ansvar
     <id>Relation</id>
     <coordinates>
       <x>176</x>
-      <y>280</y>
+      <y>296</y>
       <w>56</w>
       <h>24</h>
     </coordinates>
@@ -183,7 +183,7 @@ Ansvar
     <id>Relation</id>
     <coordinates>
       <x>784</x>
-      <y>280</y>
+      <y>296</y>
       <w>56</w>
       <h>24</h>
     </coordinates>
@@ -194,7 +194,7 @@ Ansvar
     <id>UMLClass</id>
     <coordinates>
       <x>216</x>
-      <y>328</y>
+      <y>344</y>
       <w>168</w>
       <h>112</h>
     </coordinates>
@@ -206,7 +206,7 @@ classificationNYHA
 thresholds
 --
 Ansvar
-- indskriv patientdata 
+- indskrive patientdata 
 - opdatere patientdata</panel_attributes>
     <additional_attributes/>
   </element>
@@ -214,7 +214,7 @@ Ansvar
     <id>Relation</id>
     <coordinates>
       <x>80</x>
-      <y>304</y>
+      <y>320</y>
       <w>152</w>
       <h>104</h>
     </coordinates>
@@ -225,7 +225,7 @@ Ansvar
     <id>UMLClass</id>
     <coordinates>
       <x>424</x>
-      <y>16</y>
+      <y>32</y>
       <w>168</w>
       <h>104</h>
     </coordinates>
@@ -237,7 +237,7 @@ username
 password
 --
 Ansvar
-- håndter og valider login
+- håndtere og validere login
 - åbne tilhørende interface
 </panel_attributes>
     <additional_attributes/>
@@ -246,7 +246,7 @@ Ansvar
     <id>Relation</id>
     <coordinates>
       <x>584</x>
-      <y>80</y>
+      <y>96</y>
       <w>344</w>
       <h>144</h>
     </coordinates>
@@ -257,7 +257,7 @@ Ansvar
     <id>Relation</id>
     <coordinates>
       <x>80</x>
-      <y>80</y>
+      <y>96</y>
       <w>360</w>
       <h>144</h>
     </coordinates>
@@ -268,7 +268,7 @@ Ansvar
     <id>Relation</id>
     <coordinates>
       <x>496</x>
-      <y>112</y>
+      <y>128</y>
       <w>24</w>
       <h>112</h>
     </coordinates>
@@ -279,7 +279,7 @@ Ansvar
     <id>UMLClass</id>
     <coordinates>
       <x>424</x>
-      <y>432</y>
+      <y>448</y>
       <w>168</w>
       <h>104</h>
     </coordinates>
@@ -291,15 +291,15 @@ lastName
 password
 --
 Ansvar
-- indskriv brugerdata
-- opdater brugerdata</panel_attributes>
+- indskrive brugerdata
+- opdatere brugerdata</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>584</x>
-      <y>320</y>
+      <y>336</y>
       <w>144</w>
       <h>184</h>
     </coordinates>
@@ -310,7 +310,7 @@ Ansvar
     <id>Relation</id>
     <coordinates>
       <x>288</x>
-      <y>432</y>
+      <y>448</y>
       <w>152</w>
       <h>72</h>
     </coordinates>

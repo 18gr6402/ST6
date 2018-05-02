@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>250</x>
-      <y>310</y>
+      <x>230</x>
+      <y>390</y>
       <w>210</w>
       <h>250</h>
     </coordinates>
@@ -25,8 +25,8 @@ Ansvar
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>480</x>
-      <y>20</y>
+      <x>460</x>
+      <y>100</y>
       <w>210</w>
       <h>250</h>
     </coordinates>
@@ -35,13 +35,13 @@ SCGmeasure
 --
 signalSCG
 symptoms
-date/time
+date
 --
 measure()
 set()
 --
 Ansvar
-- registrere SCG-måling
+- registrere SCG-opsamling
 - håndtere symptomændringer
 </panel_attributes>
     <additional_attributes/>
@@ -49,8 +49,8 @@ Ansvar
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1180</x>
-      <y>20</y>
+      <x>1160</x>
+      <y>100</y>
       <w>210</w>
       <h>250</h>
     </coordinates>
@@ -64,7 +64,7 @@ update()
 delete()
 --
 Ansvar
-- oprette patientID
+- tilføje patient CPR
 - udtræk patientdata
 - indkalde patient
 - opdatere patient- og lægedata
@@ -75,8 +75,8 @@ Ansvar
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>940</x>
-      <y>20</y>
+      <x>920</x>
+      <y>100</y>
       <w>220</w>
       <h>250</h>
     </coordinates>
@@ -97,14 +97,14 @@ lægeoplysninger til/fra databasen
 - skriv og læs SCG-signal, 
 parametre og symptomer til/fra 
 databasen
-- bryd forbindelse til database</panel_attributes>
+- afbryd forbindelse til database</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>20</x>
-      <y>310</y>
+      <x>0</x>
+      <y>390</y>
       <w>210</w>
       <h>250</h>
     </coordinates>
@@ -126,8 +126,8 @@ Ansvar
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>250</x>
-      <y>20</y>
+      <x>230</x>
+      <y>100</y>
       <w>210</w>
       <h>250</h>
     </coordinates>
@@ -149,8 +149,8 @@ Ansvar
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>710</x>
-      <y>20</y>
+      <x>690</x>
+      <y>100</y>
       <w>210</w>
       <h>250</h>
     </coordinates>
@@ -169,8 +169,8 @@ Ansvar
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>20</x>
-      <y>20</y>
+      <x>0</x>
+      <y>100</y>
       <w>210</w>
       <h>250</h>
     </coordinates>
@@ -193,8 +193,8 @@ Ansvar
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>480</x>
-      <y>310</y>
+      <x>460</x>
+      <y>390</y>
       <w>210</w>
       <h>250</h>
     </coordinates>
