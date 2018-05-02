@@ -1544,4 +1544,16 @@ bg=#0099cc</panel_attributes>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>230.0;10.0;10.0;10.0</additional_attributes>
   </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>0</x>
+      <y>150</y>
+      <w>318</w>
+      <h>660</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+// er lidt i tvivl her om hvad og hvor den henter til validering</panel_attributes>
+    <additional_attributes>50.0;10.0;10.0;10.0;10.0;1080.0;510.0;1080.0</additional_attributes>
+  </element>
 </diagram>
