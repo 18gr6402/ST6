@@ -98,9 +98,9 @@ Patient
 - mpiThreshold: IntegerProperty
 -
 + Patient()
-+ setCPR(cpr : String) : void
-+ getCPR() : String 
-+ CPRProperty() : StringProperty
++ setCPR(cpr : int) : void
++ getCPR() : int 
++ CPRProperty() : IntegerProperty
 + setNYHA(nyha : String) : void
 + getNYHA() : String
 + NYHAProperty() : StringProperty
@@ -142,7 +142,7 @@ Practitioner
       <x>480</x>
       <y>400</y>
       <w>380</w>
-      <h>480</h>
+      <h>510</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Model&gt;&gt;
 SCGMeasure
@@ -160,9 +160,9 @@ SCGMeasure
 + setDate
 + getDate
 + getFiducialMarkers() : int
-+ setSCG(scg : int) : void
-+ getSCG() : int
-+ SCGProperty() : IntegerProperty
++ setSCG(scg : String) : void
++ getSCG() : String
++ SCGProperty() : StringProperty
 + getMPI() : int
 + setWeight(weight : int) : void
 + getWeight() : int
