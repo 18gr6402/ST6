@@ -5,8 +5,8 @@ $user_pass = $_POST["password"];
 $mysql_qry = "select * from patient where cpr like '$cpr_id' and password like '$user_pass';";
 $result = mysqli_query($conn ,$mysql_qry);
 if(mysqli_num_rows($result) > 0) {
-echo "login success";
+echo "Login succesfuld! Velkommen";
 }
 else {
-echo "login not success";
+echo "Login ikke succesfuld!";
 }
