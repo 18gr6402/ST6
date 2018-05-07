@@ -28,8 +28,8 @@ fontfamily=Monospaced //possible: SansSerif,Serif,Monospaced
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>16</x>
-      <y>152</y>
+      <x>52</x>
+      <y>144</y>
       <w>80</w>
       <h>24</h>
     </coordinates>
@@ -40,8 +40,8 @@ RootLayoutCtrl</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>444</x>
-      <y>216</y>
+      <x>480</x>
+      <y>208</y>
       <w>176</w>
       <h>52</h>
     </coordinates>
@@ -53,14 +53,15 @@ MenuPatientCtrl
 + showMenuPatient() : void
 - void handleCollectSCG(event : MouseEvent)
 - void handleProfilPatient(event : MouseEvent)
+- void handleLogout(event : MouseEvent)
 bg=pink</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>12</x>
-      <y>264</y>
+      <x>48</x>
+      <y>256</y>
       <w>136</w>
       <h>112</h>
     </coordinates>
@@ -88,8 +89,8 @@ bg=pink</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>152</x>
-      <y>264</y>
+      <x>188</x>
+      <y>256</y>
       <w>148</w>
       <h>88</h>
     </coordinates>
@@ -100,7 +101,7 @@ NewUserCtrl
 --
 + NewUserCtrl() : void
 + showNewUser() : void
-- void handlePractioner(event : MouseEvent)
+- void handlePractitioner(event : MouseEvent)
 - void handlePatient(event : MouseEvent)
 bg=pink</panel_attributes>
     <additional_attributes/>
@@ -108,8 +109,8 @@ bg=pink</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>304</x>
-      <y>196</y>
+      <x>340</x>
+      <y>188</y>
       <w>136</w>
       <h>72</h>
     </coordinates>
@@ -132,13 +133,13 @@ bg=pink</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>304</x>
-      <y>272</y>
+      <x>340</x>
+      <y>264</y>
       <w>136</w>
       <h>72</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Controller&gt;&gt;
-NewPractionerCtrl
+NewPractitionerCtrl
 --
 - employmentIDField: TextField
 - firstNameField : TextField
@@ -146,8 +147,8 @@ NewPractionerCtrl
 - passwordField : TextField
 - passwordField2 : TextField
 --
-+ NewPractionerCtrl() : void
-+ showNewPractioner() : void
++ NewPractitionerCtrl() : void
++ showNewPractitioner() : void
 - void handleOk(event : MouseEvent)
 - void handleCancle(event : MouseEvent)
 bg=pink</panel_attributes>
@@ -156,30 +157,31 @@ bg=pink</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>444</x>
-      <y>272</y>
+      <x>480</x>
+      <y>264</y>
       <w>176</w>
-      <h>60</h>
+      <h>72</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Controller&gt;&gt;
-MenuPractionerCtrl
+MenuPractitionerCtrl
 --
 --
-+ MenuPractionerCtrl() : void
-+ showMenuPractioner() : void
-- void handleProfilPractioner(event : MouseEvent)
++ MenuPractitionerCtrl() : void
++ showMenuPractitioner() : void
+- void handleProfilPractitioner(event : MouseEvent)
 - void handlePatientOverview(event : MouseEvent)
 - void handleWarnings(event : MouseEvent)
-- void handlePractionerOverview(event : MouseEvent)
+- void handlePractitionerOverview(event : MouseEvent)
 - void handleViewGuide(event : MouseEvent)
+- void handleLogout(event : MouseEvent)
 bg=pink</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>624</x>
-      <y>448</y>
+      <x>660</x>
+      <y>440</y>
       <w>176</w>
       <h>120</h>
     </coordinates>
@@ -210,8 +212,8 @@ PatientOverviewCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>804</x>
-      <y>376</y>
+      <x>840</x>
+      <y>368</y>
       <w>136</w>
       <h>56</h>
     </coordinates>
@@ -231,8 +233,8 @@ AddPatientCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>804</x>
-      <y>436</y>
+      <x>840</x>
+      <y>428</y>
       <w>136</w>
       <h>68</h>
     </coordinates>
@@ -254,8 +256,8 @@ EditPatientCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>804</x>
-      <y>508</y>
+      <x>840</x>
+      <y>500</y>
       <w>136</w>
       <h>64</h>
     </coordinates>
@@ -276,8 +278,8 @@ DeletePatientDialogCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>804</x>
-      <y>576</y>
+      <x>840</x>
+      <y>568</y>
       <w>136</w>
       <h>80</h>
     </coordinates>
@@ -301,8 +303,8 @@ ViewSCGCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>624</x>
-      <y>680</y>
+      <x>660</x>
+      <y>672</y>
       <w>176</w>
       <h>96</h>
     </coordinates>
@@ -329,15 +331,15 @@ PatientWarningsCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>624</x>
-      <y>812</y>
+      <x>660</x>
+      <y>804</y>
       <w>176</w>
       <h>92</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Controller&gt;&gt;
-PractionerOverviewCtrl
+PractitionerOverviewCtrl
 --
-- practionerTable : TableView
+- practitionerTable : TableView
 - firstNameColumn : TableColumn
 - lastNameColumn : TableColumn
 - emplomentIDColumn : TableColumn
@@ -345,30 +347,30 @@ PractionerOverviewCtrl
 - lastNameLabel : Text
 - employmentLabel : Text
 --
-+ PractionerOverviewCtrl() : void
-+ showPractionerOverview() : void
-- void showPractionerDetails(Practioner practioner)
++ PractitionerOverviewCtrl() : void
++ showPractitionerOverview() : void
+- void showPractitionerDetails(Practitioner practitioner)
 - void handleBack(event : MouseEvent)
-- void handleAddPractioner(event : MouseEvent)
-- void handleDeletePractioner(event : MouseEvent)</panel_attributes>
+- void handleAddPractitioner(event : MouseEvent)
+- void handleDeletePractitioner(event : MouseEvent)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>804</x>
-      <y>800</y>
+      <x>840</x>
+      <y>792</y>
       <w>136</w>
       <h>52</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Controller&gt;&gt;
-AddPractionerCtrl
+AddPractitionerCtrl
 --
 - employmentIDField : TextField
 - employmentIDField2 : TextField
 --
-+ AdddPractionerCtrl() : void
-+ showAdddPractioner() : void
++ AdddPractitionerCtrl() : void
++ showAdddPractitioner() : void
 - void handleOk(event : MouseEvent)
 - void handleCancle(event : MouseEvent)</panel_attributes>
     <additional_attributes/>
@@ -376,21 +378,21 @@ AddPractionerCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>804</x>
-      <y>856</y>
-      <w>136</w>
+      <x>840</x>
+      <y>848</y>
+      <w>180</w>
       <h>64</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Controller&gt;&gt;
-DeletePractionerDialogCtrl
+DeletePractitionerDialogCtrl
 --
 - firstNameLabel : Text
 - lastNameLabel : Text
 - employmentLabel : Text
 --
-+ DeletePractionerDialogCtrl() : void
-+ showDeletePractionerDialog() : void
-- void showPractionerDetails(Practioner practioner)
++ DeletePractitionerDialogCtrl() : void
++ showDeletePractitionerDialog() : void
+- void showPractitionerDetails(Practitioner practitioner)
 - void handleDelete(event : MouseEvent)
 - void handleCancle(event : MouseEvent)</panel_attributes>
     <additional_attributes/>
@@ -398,8 +400,8 @@ DeletePractionerDialogCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>624</x>
-      <y>60</y>
+      <x>660</x>
+      <y>52</y>
       <w>176</w>
       <h>56</h>
     </coordinates>
@@ -418,8 +420,8 @@ CollectSCGCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>804</x>
-      <y>28</y>
+      <x>840</x>
+      <y>20</y>
       <w>136</w>
       <h>36</h>
     </coordinates>
@@ -435,8 +437,8 @@ ViewGuideCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>804</x>
-      <y>68</y>
+      <x>840</x>
+      <y>60</y>
       <w>136</w>
       <h>32</h>
     </coordinates>
@@ -452,8 +454,8 @@ MeasureCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>944</x>
-      <y>72</y>
+      <x>980</x>
+      <y>64</y>
       <w>136</w>
       <h>44</h>
     </coordinates>
@@ -472,8 +474,8 @@ ConfirmMeasureCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1084</x>
-      <y>72</y>
+      <x>1120</x>
+      <y>64</y>
       <w>148</w>
       <h>72</h>
     </coordinates>
@@ -496,8 +498,8 @@ EditSymptomsCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1236</x>
-      <y>72</y>
+      <x>1272</x>
+      <y>64</y>
       <w>120</w>
       <h>52</h>
     </coordinates>
@@ -514,8 +516,8 @@ AcknowledgeCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>624</x>
-      <y>200</y>
+      <x>660</x>
+      <y>192</y>
       <w>176</w>
       <h>68</h>
     </coordinates>
@@ -538,8 +540,8 @@ bg=pink</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>804</x>
-      <y>260</y>
+      <x>840</x>
+      <y>252</y>
       <w>136</w>
       <h>72</h>
     </coordinates>
@@ -562,22 +564,22 @@ bg=pink</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>624</x>
-      <y>272</y>
+      <x>660</x>
+      <y>264</y>
       <w>176</w>
       <h>72</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Controller&gt;&gt;
-ProfilPractionerCtrl
+ProfilPractitionerCtrl
 --
 - firstNameLabel : Text
 - lastNameLabel : Text
 - employmentIDLabel : Text
 - passwordLabel : Text
 --
-+ ProfilPractionerCtrl() : void
-+ showPractionerProfil() : void
-- void showPractionerDetails(Practioner practioner)
++ ProfilPractitionerCtrl() : void
++ showPractitionerProfil() : void
+- void showPractitionerDetails(Practitioner practitioner)
 - void handleUpdate(event : MouseEvent)
 - void handleBack(event : MouseEvent)
 bg=pink</panel_attributes>
@@ -586,8 +588,8 @@ bg=pink</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>944</x>
-      <y>436</y>
+      <x>980</x>
+      <y>428</y>
       <w>136</w>
       <h>44</h>
     </coordinates>
