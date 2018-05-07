@@ -7,7 +7,7 @@
       <x>624</x>
       <y>112</y>
       <w>168</w>
-      <h>72</h>
+      <h>80</h>
     </coordinates>
     <panel_attributes>bg=#0099cc
 Administrator
@@ -15,7 +15,8 @@ Administrator
 
 --
 Ansvar
-- tilføje ansættelsesID</panel_attributes>
+- tilføje læge
+- slette læge</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -45,7 +46,7 @@ Ansvar
       <x>624</x>
       <y>224</y>
       <w>168</w>
-      <h>120</h>
+      <h>112</h>
     </coordinates>
     <panel_attributes>bg=#0099cc
 Practitioner
@@ -55,9 +56,8 @@ employmentID
 Ansvar
 - tilføje patient CPR
 - udtrække patientdata
-- indkalde patient
 - opdatere patient- og lægedata
-- slette patient- og lægedata
+- slette patientdata
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -88,12 +88,12 @@ databasen
     <id>Relation</id>
     <coordinates>
       <x>696</x>
-      <y>176</y>
+      <y>184</y>
       <w>24</w>
-      <h>64</h>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -299,12 +299,12 @@ Ansvar
     <id>Relation</id>
     <coordinates>
       <x>584</x>
-      <y>336</y>
+      <y>328</y>
       <w>144</w>
-      <h>184</h>
+      <h>192</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;</panel_attributes>
-    <additional_attributes>160.0;10.0;160.0;210.0;10.0;210.0</additional_attributes>
+    <additional_attributes>160.0;10.0;160.0;220.0;10.0;220.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
