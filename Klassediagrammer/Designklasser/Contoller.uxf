@@ -101,7 +101,7 @@ NewUserCtrl
 --
 + NewUserCtrl() : void
 + showNewUser() : void
-- void handlePractioner(event : MouseEvent)
+- void handlePractitioner(event : MouseEvent)
 - void handlePatient(event : MouseEvent)
 bg=pink</panel_attributes>
     <additional_attributes/>
@@ -139,7 +139,7 @@ bg=pink</panel_attributes>
       <h>72</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Controller&gt;&gt;
-NewPractionerCtrl
+NewPractitionerCtrl
 --
 - employmentIDField: TextField
 - firstNameField : TextField
@@ -147,8 +147,8 @@ NewPractionerCtrl
 - passwordField : TextField
 - passwordField2 : TextField
 --
-+ NewPractionerCtrl() : void
-+ showNewPractioner() : void
++ NewPractitionerCtrl() : void
++ showNewPractitioner() : void
 - void handleOk(event : MouseEvent)
 - void handleCancle(event : MouseEvent)
 bg=pink</panel_attributes>
@@ -163,7 +163,7 @@ bg=pink</panel_attributes>
       <h>72</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Controller&gt;&gt;
-MenuPractionerCtrl
+MenuPractitionerCtrl
 --
 --
 + MenuPractitionerCtrl() : void
@@ -337,9 +337,9 @@ PatientWarningsCtrl
       <h>92</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Controller&gt;&gt;
-PractionerOverviewCtrl
+PractitionerOverviewCtrl
 --
-- practionerTable : TableView
+- practitionerTable : TableView
 - firstNameColumn : TableColumn
 - lastNameColumn : TableColumn
 - emplomentIDColumn : TableColumn
@@ -347,12 +347,12 @@ PractionerOverviewCtrl
 - lastNameLabel : Text
 - employmentLabel : Text
 --
-+ PractionerOverviewCtrl() : void
-+ showPractionerOverview() : void
-- void showPractionerDetails(Practioner practioner)
++ PractitionerOverviewCtrl() : void
++ showPractitionerOverview() : void
+- void showPractitionerDetails(Practitioner practitioner)
 - void handleBack(event : MouseEvent)
-- void handleAddPractioner(event : MouseEvent)
-- void handleDeletePractioner(event : MouseEvent)</panel_attributes>
+- void handleAddPractitioner(event : MouseEvent)
+- void handleDeletePractitioner(event : MouseEvent)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -364,13 +364,13 @@ PractionerOverviewCtrl
       <h>52</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Controller&gt;&gt;
-AddPractionerCtrl
+AddPractitionerCtrl
 --
 - employmentIDField : TextField
 - employmentIDField2 : TextField
 --
-+ AdddPractionerCtrl() : void
-+ showAdddPractioner() : void
++ AdddPractitionerCtrl() : void
++ showAdddPractitioner() : void
 - void handleOk(event : MouseEvent)
 - void handleCancle(event : MouseEvent)</panel_attributes>
     <additional_attributes/>
@@ -384,15 +384,15 @@ AddPractionerCtrl
       <h>64</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Controller&gt;&gt;
-DeletePractionerDialogCtrl
+DeletePractitionerDialogCtrl
 --
 - firstNameLabel : Text
 - lastNameLabel : Text
 - employmentLabel : Text
 --
-+ DeletePractionerDialogCtrl() : void
-+ showDeletePractionerDialog() : void
-- void showPractionerDetails(Practioner practioner)
++ DeletePractitionerDialogCtrl() : void
++ showDeletePractitionerDialog() : void
+- void showPractitionerDetails(Practitioner practitioner)
 - void handleDelete(event : MouseEvent)
 - void handleCancle(event : MouseEvent)</panel_attributes>
     <additional_attributes/>
@@ -570,16 +570,16 @@ bg=pink</panel_attributes>
       <h>72</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Controller&gt;&gt;
-ProfilPractionerCtrl
+ProfilPractitionerCtrl
 --
 - firstNameLabel : Text
 - lastNameLabel : Text
 - employmentIDLabel : Text
 - passwordLabel : Text
 --
-+ ProfilPractionerCtrl() : void
-+ showPractionerProfil() : void
-- void showPractionerDetails(Practioner practioner)
++ ProfilPractitionerCtrl() : void
++ showPractitionerProfil() : void
+- void showPractitionerDetails(Practitioner practitioner)
 - void handleUpdate(event : MouseEvent)
 - void handleBack(event : MouseEvent)
 bg=pink</panel_attributes>
