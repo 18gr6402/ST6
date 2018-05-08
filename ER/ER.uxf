@@ -311,7 +311,7 @@ Patient</panel_attributes>
     <coordinates>
       <x>770</x>
       <y>455</y>
-      <w>70</w>
+      <w>63</w>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
@@ -390,7 +390,7 @@ Telemontoring</panel_attributes>
     <coordinates>
       <x>203</x>
       <y>455</y>
-      <w>77</w>
+      <w>63</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
