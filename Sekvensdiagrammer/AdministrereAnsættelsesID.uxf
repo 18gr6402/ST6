@@ -432,9 +432,9 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>469</x>
+      <x>105</x>
       <y>476</y>
-      <w>980</w>
+      <w>1344</w>
       <h>273</h>
     </coordinates>
     <panel_attributes>if(Click event == "OK")</panel_attributes>
@@ -443,9 +443,9 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>707</x>
+      <x>112</x>
       <y>595</y>
-      <w>735</w>
+      <w>1330</w>
       <h>56</h>
     </coordinates>
     <panel_attributes>if(EmploymentID == EmploymentID2)</panel_attributes>
@@ -502,9 +502,9 @@ return(EmploymentID2)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>469</x>
+      <x>105</x>
       <y>749</y>
-      <w>980</w>
+      <w>1344</w>
       <h>63</h>
     </coordinates>
     <panel_attributes>else if(Click event == "Annuller")</panel_attributes>
@@ -525,9 +525,9 @@ setEmploymentID()</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>707</x>
+      <x>112</x>
       <y>651</y>
-      <w>735</w>
+      <w>1330</w>
       <h>42</h>
     </coordinates>
     <panel_attributes>else</panel_attributes>
@@ -911,9 +911,9 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>469</x>
+      <x>105</x>
       <y>1036</y>
-      <w>980</w>
+      <w>1344</w>
       <h>112</h>
     </coordinates>
     <panel_attributes>if(Click event == "Slet")</panel_attributes>
@@ -922,9 +922,9 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>469</x>
+      <x>105</x>
       <y>1148</y>
-      <w>980</w>
+      <w>1344</w>
       <h>63</h>
     </coordinates>
     <panel_attributes>else if(Click event == "Annuller")</panel_attributes>
