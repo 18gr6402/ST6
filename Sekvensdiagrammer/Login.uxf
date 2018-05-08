@@ -111,7 +111,7 @@ setCPR()</panel_attributes>
       <w>1070</w>
       <h>315</h>
     </coordinates>
-    <panel_attributes>else</panel_attributes>
+    <panel_attributes>else if chechbox == true</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -268,7 +268,7 @@ bg=#ffcc00</panel_attributes>
     <coordinates>
       <x>395</x>
       <y>130</y>
-      <w>150</w>
+      <w>140</w>
       <h>25</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
