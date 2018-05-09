@@ -362,13 +362,13 @@ fontsize=18</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>522</x>
+      <x>531</x>
       <y>189</y>
-      <w>153</w>
+      <w>144</w>
       <h>27</h>
     </coordinates>
     <panel_attributes>fg=red</panel_attributes>
-    <additional_attributes>150.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
