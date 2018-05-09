@@ -15,12 +15,12 @@
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>324</x>
+      <x>318</x>
       <y>18</y>
-      <w>36</w>
+      <w>48</w>
       <h>72</h>
     </coordinates>
-    <panel_attributes>User
+    <panel_attributes>Practitioner
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -1949,5 +1949,17 @@ bg=yellow</panel_attributes>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>816</x>
+      <y>228</y>
+      <w>408</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+return(SymptomsUpperThreshold)</panel_attributes>
+    <additional_attributes>10.0;20.0;660.0;20.0</additional_attributes>
   </element>
 </diagram>

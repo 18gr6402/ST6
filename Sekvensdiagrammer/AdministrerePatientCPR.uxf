@@ -15,12 +15,12 @@
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>225</x>
+      <x>220</x>
       <y>15</y>
-      <w>30</w>
+      <w>40</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>User
+    <panel_attributes>Practitioner
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -537,7 +537,7 @@ show error</panel_attributes>
     <id>Text</id>
     <coordinates>
       <x>1130</x>
-      <y>375</y>
+      <y>255</y>
       <w>50</w>
       <h>40</h>
     </coordinates>
@@ -559,12 +559,12 @@ drawArc(0,height*3/5,width,height*2/5,180,180,true) fg=black bg=#222222 //Parame
     <id>Relation</id>
     <coordinates>
       <x>1150</x>
-      <y>410</y>
+      <y>290</y>
       <w>15</w>
-      <h>155</h>
+      <h>275</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;290.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;530.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
