@@ -43,7 +43,7 @@
       <w>65</w>
       <h>15</h>
     </coordinates>
-    <panel_attributes>Login (som læge)
+    <panel_attributes>Login
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -704,7 +704,7 @@ bg=yellow</panel_attributes>
       <w>970</w>
       <h>285</h>
     </coordinates>
-    <panel_attributes>if(Click event = "Slet CPR")</panel_attributes>
+    <panel_attributes>else if(Click event = "Slet CPR")</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -715,7 +715,7 @@ bg=yellow</panel_attributes>
       <w>970</w>
       <h>45</h>
     </coordinates>
-    <panel_attributes>if(Click event = "Tilbage")</panel_attributes>
+    <panel_attributes>else if(Click event = "Tilbage")</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -2291,7 +2291,7 @@ setNYHA()</panel_attributes>
       <w>970</w>
       <h>45</h>
     </coordinates>
-    <panel_attributes>if(Click event = "Rediger")</panel_attributes>
+    <panel_attributes>else if(Click event = "Rediger")</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -2335,7 +2335,7 @@ setNYHA()</panel_attributes>
       <w>65</w>
       <h>15</h>
     </coordinates>
-    <panel_attributes>Edit patient
+    <panel_attributes>Rediger patient
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -2353,12 +2353,12 @@ setNYHA()</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>700</x>
+      <x>695</x>
       <y>995</y>
-      <w>65</w>
+      <w>80</w>
       <h>15</h>
     </coordinates>
-    <panel_attributes>Inspect patient</panel_attributes>
+    <panel_attributes>Inspicer monitorering</panel_attributes>
     <additional_attributes/>
   </element>
   <element>

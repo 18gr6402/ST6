@@ -15,12 +15,12 @@
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>120</x>
+      <x>114</x>
       <y>24</y>
-      <w>36</w>
+      <w>48</w>
       <h>72</h>
     </coordinates>
-    <panel_attributes>User
+    <panel_attributes>Practitioner
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -43,7 +43,7 @@
       <w>150</w>
       <h>18</h>
     </coordinates>
-    <panel_attributes>Login (som administrerende læge)
+    <panel_attributes>Login
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -389,7 +389,7 @@ bg=#ffcc00</panel_attributes>
       <w>1164</w>
       <h>354</h>
     </coordinates>
-    <panel_attributes>if(Click event == "Tilføj lægeID")</panel_attributes>
+    <panel_attributes>if(Click event == "Tilføj ansættelsesID")</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -728,7 +728,7 @@ bg=yellow</panel_attributes>
       <w>1164</w>
       <h>342</h>
     </coordinates>
-    <panel_attributes>if(Click event = "Slet lægeID")</panel_attributes>
+    <panel_attributes>if(Click event = "Slet ansættelsesID")</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
