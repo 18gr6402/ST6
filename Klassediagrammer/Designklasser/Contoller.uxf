@@ -54,7 +54,7 @@ MenuPatientCtrl
 - void handleCollectSCG(event : MouseEvent)
 - void handleProfilPatient(event : MouseEvent)
 - void handleLogout(event : MouseEvent)
-bg=pink</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -70,20 +70,17 @@ LoginCtrl
 --
 - usernameField : TextField
 - passwordField : TextField
-- checkKlinik : CheckBox
-- klinikField : TextField
+- checkClinic : CheckBox
+- clinicField : TextField
 --
 + LoginCtrl() : void
 + showLogin() : void
 - void handleNewUser(event : MouseEvent)
 - void handleLogin(event : MouseEvent)
-+ getKlinikField(): string
-+ getPasswordField(): string
-+ getUsernameField(): int
-+ setCheckKlinik(term : Boolean) : void
-+ getCheckKlinik() : Boolean
-+ checkKlinik() : BooleanProperty
-bg=pink</panel_attributes>
++ setCheckClinic(term : Boolean) : void
++ getCheckClinic() : Boolean
++ checkClinic() : BooleanProperty
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -103,7 +100,7 @@ NewUserCtrl
 + showNewUser() : void
 - void handlePractitioner(event : MouseEvent)
 - void handlePatient(event : MouseEvent)
-bg=pink</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -127,7 +124,7 @@ NewPatientCtrl
 + showNewPatient() : void
 - void handleOk(event : MouseEvent)
 - void handleCancel(event : MouseEvent)
-bg=pink</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -151,7 +148,7 @@ NewPractitionerCtrl
 + showNewPractitioner() : void
 - void handleOk(event : MouseEvent)
 - void handleCancle(event : MouseEvent)
-bg=pink</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -174,7 +171,7 @@ MenuPractitionerCtrl
 - void handlePractitionerOverview(event : MouseEvent)
 - void handleViewGuide(event : MouseEvent)
 - void handleLogout(event : MouseEvent)
-bg=pink</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -534,7 +531,7 @@ ProfilPatientCtrl
 - void showPatientDetails(Patient patient)
 - void handleUpdate(event : MouseEvent)
 - void handleBack(event : MouseEvent)
-bg=pink</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -558,7 +555,7 @@ EditProfilCtrl
 + void showUserDetails(User user)
 - void handleOk(event : MouseEvent)
 - void handleCancel(event : MouseEvent)
-bg=pink</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -582,7 +579,7 @@ ProfilPractitionerCtrl
 - void showPractitionerDetails(Practitioner practitioner)
 - void handleUpdate(event : MouseEvent)
 - void handleBack(event : MouseEvent)
-bg=pink</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
