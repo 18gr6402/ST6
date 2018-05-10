@@ -206,7 +206,7 @@ PatientOverviewCtrl
 - void handleAddPatient(event : MouseEvent)
 - void handleEditPatient(event : MouseEvent)
 - void handleDeletePatient(event : MouseEvent)
-- void handleInspectPatient(event : MouseEvent)</panel_attributes>
+- void handleInspectMonitoring(event : MouseEvent)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -294,8 +294,8 @@ ViewSCGCtrl
 - mpiLabel : Text
 - symptomsLabel : Text
 --
-+ ViewSCGCtrl() : void
-+ showViewSCG() : void
++ InspectMonitoringCtrl() : void
++ showInspectMonitoring() : void
 - void showSCGDetails(Patient patient)
 - void handleBack(event : MouseEvent)</panel_attributes>
     <additional_attributes/>
@@ -325,7 +325,7 @@ PatientWarningsCtrl
 + showPatientWarnings() : void
 - void showPatientDetails(Patient patient)
 - void handleBack(event : MouseEvent)
-- void handleInspectPatient(event : MouseEvent)</panel_attributes>
+- void handleInspectMonitoring(event : MouseEvent)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
