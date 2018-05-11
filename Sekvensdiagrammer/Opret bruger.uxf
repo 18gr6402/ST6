@@ -553,7 +553,7 @@ bg=yellow</panel_attributes>
       <h>21</h>
     </coordinates>
     <panel_attributes>bg=#0099cc
-patient : Patient
+loginUser : Patient
 
 </panel_attributes>
     <additional_attributes/>
@@ -719,7 +719,7 @@ drawArc(0,height*3/5,width,height*2/5,180,180,true) fg=black bg=#222222 //Parame
       <h>21</h>
     </coordinates>
     <panel_attributes>bg=#0099cc
-practitioner : Practitioner
+loginUser : Practitioner
 
 </panel_attributes>
     <additional_attributes/>
