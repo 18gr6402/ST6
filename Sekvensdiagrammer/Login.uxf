@@ -29,10 +29,10 @@
       <x>950</x>
       <y>655</y>
       <w>15</w>
-      <h>115</h>
+      <h>75</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;210.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -227,7 +227,7 @@ Login</panel_attributes>
       <w>50</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>  Database
+    <panel_attributes>    Database
 customelement=
 // Text Elemnt
 // DB Symbol
@@ -1284,10 +1284,10 @@ bg=yellow</panel_attributes>
       <x>240</x>
       <y>785</y>
       <w>15</w>
-      <h>115</h>
+      <h>75</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;210.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -1482,7 +1482,7 @@ Login</panel_attributes>
       <w>50</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>  Database
+    <panel_attributes>    Database
 customelement=
 // Text Elemnt
 // DB Symbol
@@ -2733,7 +2733,7 @@ return(ClinicID)</panel_attributes>
       <w>655</w>
       <h>75</h>
     </coordinates>
-    <panel_attributes>alt Logout</panel_attributes>
+    <panel_attributes>alt [Logout]</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -3060,5 +3060,51 @@ TIL LoginCtrl
 controllerklassen
 </panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>240</x>
+      <y>850</y>
+      <w>10</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>240</x>
+      <y>865</y>
+      <w>15</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>950</x>
+      <y>720</y>
+      <w>10</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>950</x>
+      <y>735</y>
+      <w>15</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
   </element>
 </diagram>
