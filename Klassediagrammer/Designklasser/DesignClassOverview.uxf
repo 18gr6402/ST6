@@ -541,7 +541,7 @@ bg=#0099cc</panel_attributes>
       <w>165</w>
       <h>175</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
 m2=*</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;200.0;310.0;200.0;310.0;330.0</additional_attributes>
@@ -900,7 +900,7 @@ bg=#0099cc</panel_attributes>
       <w>75</w>
       <h>25</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
 m2=*
 </panel_attributes>
@@ -925,7 +925,7 @@ m2=*
       <w>745</w>
       <h>285</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
 m2=*</panel_attributes>
     <additional_attributes>10.0;450.0;10.0;550.0;1470.0;550.0;1470.0;10.0</additional_attributes>
@@ -938,7 +938,7 @@ m2=*</panel_attributes>
       <w>40</w>
       <h>165</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
 m2=*
 </panel_attributes>
@@ -1045,7 +1045,7 @@ layer=1</panel_attributes>
     <panel_attributes>
 *Profile*
 bg=#36ff9a
-layer=-1</panel_attributes>
+layer=0</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
