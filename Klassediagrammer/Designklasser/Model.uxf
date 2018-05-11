@@ -28,8 +28,8 @@ fontfamily=SansSerif //possible: SansSerif,Serif,Monospaced
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>420</x>
-      <y>196</y>
+      <x>322</x>
+      <y>217</y>
       <w>203</w>
       <h>182</h>
     </coordinates>
@@ -55,8 +55,8 @@ Clinic
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>182</x>
-      <y>196</y>
+      <x>84</x>
+      <y>217</y>
       <w>231</w>
       <h>238</h>
     </coordinates>
@@ -84,8 +84,8 @@ User
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>658</x>
-      <y>196</y>
+      <x>560</x>
+      <y>217</y>
       <w>203</w>
       <h>217</h>
     </coordinates>
@@ -113,8 +113,8 @@ Patient
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>896</x>
-      <y>196</y>
+      <x>798</x>
+      <y>217</y>
       <w>259</w>
       <h>196</h>
     </coordinates>
@@ -139,8 +139,8 @@ Practitioner
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>420</x>
-      <y>420</y>
+      <x>322</x>
+      <y>441</y>
       <w>266</w>
       <h>427</h>
     </coordinates>
@@ -184,9 +184,9 @@ SCGMeasure
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>329</x>
-      <y>0</y>
-      <w>483</w>
+      <x>315</x>
+      <y>21</y>
+      <w>266</w>
       <h>147</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Interface&gt;&gt;
@@ -195,10 +195,10 @@ DatabaseOperations
 
 -
 + getConnection(): Connection
-+ loadData(table, columns, discriminator, data: String): String
-+ insertData(table, data: String): Void
-+ updateData(table, columns, discriminator, data: String): Void
-+ deleteData(table, discriminator: String): Void
++ loadData(): String
++ insertData(): Void
++ updateData(): Void
++ deleteData(): Void
 + closeConnection(): Connection
 
 
