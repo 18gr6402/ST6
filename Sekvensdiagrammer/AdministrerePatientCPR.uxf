@@ -123,7 +123,7 @@ bg=pink</panel_attributes>
       <w>65</w>
       <h>15</h>
     </coordinates>
-    <panel_attributes>patient:Patient
+    <panel_attributes>patient : Patient
 
 bg=#0099cc
 
@@ -388,7 +388,7 @@ bg=#ffcc00</panel_attributes>
       <w>970</w>
       <h>370</h>
     </coordinates>
-    <panel_attributes>if(Click event == "Tilføj CPR")</panel_attributes>
+    <panel_attributes>if(Touch event == "Tilføj CPR")</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -436,7 +436,7 @@ bg=#ffcc00</panel_attributes>
       <w>960</w>
       <h>250</h>
     </coordinates>
-    <panel_attributes>if(Click event == "OK")</panel_attributes>
+    <panel_attributes>if(Touch event == "OK")</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -506,7 +506,7 @@ return(CPR2)</panel_attributes>
       <w>960</w>
       <h>55</h>
     </coordinates>
-    <panel_attributes>else if(Click event == "Annuller")</panel_attributes>
+    <panel_attributes>else if(Touch event == "Annuller")</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -690,7 +690,7 @@ bg=yellow</panel_attributes>
       <w>970</w>
       <h>285</h>
     </coordinates>
-    <panel_attributes>else if(Click event = "Slet CPR")</panel_attributes>
+    <panel_attributes>else if(Touch event = "Slet CPR")</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -701,7 +701,7 @@ bg=yellow</panel_attributes>
       <w>970</w>
       <h>45</h>
     </coordinates>
-    <panel_attributes>else if(Click event = "Tilbage")</panel_attributes>
+    <panel_attributes>else if(Touch event = "Tilbage")</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -878,7 +878,7 @@ bg=#ffcc00</panel_attributes>
       <w>960</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>if(Click event == "Slet")</panel_attributes>
+    <panel_attributes>if(Touch event == "Slet")</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -889,7 +889,7 @@ bg=#ffcc00</panel_attributes>
       <w>960</w>
       <h>45</h>
     </coordinates>
-    <panel_attributes>else if(Click event == "Annuller")</panel_attributes>
+    <panel_attributes>else if(Touch event == "Annuller")</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -2212,7 +2212,7 @@ setNYHA()</panel_attributes>
       <w>970</w>
       <h>45</h>
     </coordinates>
-    <panel_attributes>else if(Click event = "Rediger")</panel_attributes>
+    <panel_attributes>else if(Touch event = "Rediger")</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
