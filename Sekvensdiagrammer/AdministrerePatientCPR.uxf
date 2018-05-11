@@ -32,19 +32,9 @@
       <w>970</w>
       <h>25</h>
     </coordinates>
-    <panel_attributes>ref</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>530</x>
-      <y>80</y>
-      <w>65</w>
-      <h>15</h>
-    </coordinates>
-    <panel_attributes>Login
-</panel_attributes>
+    <panel_attributes>ref
+--
+Opret bruger og Login</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
