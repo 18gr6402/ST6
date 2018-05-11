@@ -18,7 +18,7 @@
     <coordinates>
       <x>40</x>
       <y>75</y>
-      <w>1005</w>
+      <w>1015</w>
       <h>25</h>
     </coordinates>
     <panel_attributes>ref</panel_attributes>
@@ -382,7 +382,7 @@ bg=#ffcc00</panel_attributes>
     <coordinates>
       <x>50</x>
       <y>295</y>
-      <w>985</w>
+      <w>995</w>
       <h>295</h>
     </coordinates>
     <panel_attributes>if(Click event == "Tilføj ansættelsesID")</panel_attributes>
@@ -430,7 +430,7 @@ bg=#ffcc00</panel_attributes>
     <coordinates>
       <x>55</x>
       <y>360</y>
-      <w>970</w>
+      <w>980</w>
       <h>180</h>
     </coordinates>
     <panel_attributes>if(Click event == "OK")</panel_attributes>
@@ -441,7 +441,7 @@ bg=#ffcc00</panel_attributes>
     <coordinates>
       <x>60</x>
       <y>440</y>
-      <w>950</w>
+      <w>955</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>if(EmploymentID == EmploymentID2)</panel_attributes>
@@ -463,7 +463,7 @@ getEmploymentID()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>525</x>
-      <y>405</y>
+      <y>390</y>
       <w>100</w>
       <h>20</h>
     </coordinates>
@@ -475,7 +475,7 @@ return(EmploymentID)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>525</x>
-      <y>390</y>
+      <y>405</y>
       <w>100</w>
       <h>20</h>
     </coordinates>
@@ -500,7 +500,7 @@ return(EmploymentID2)</panel_attributes>
     <coordinates>
       <x>55</x>
       <y>540</y>
-      <w>970</w>
+      <w>980</w>
       <h>45</h>
     </coordinates>
     <panel_attributes>else if(Click event == "Annuller")</panel_attributes>
@@ -523,7 +523,7 @@ setEmploymentID()</panel_attributes>
     <coordinates>
       <x>60</x>
       <y>470</y>
-      <w>950</w>
+      <w>955</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>else</panel_attributes>
@@ -544,7 +544,7 @@ show error</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>970</x>
+      <x>980</x>
       <y>365</y>
       <w>50</w>
       <h>40</h>
@@ -566,7 +566,7 @@ drawArc(0,height*3/5,width,height*2/5,180,180,true) fg=black bg=#222222 //Parame
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>990</x>
+      <x>1000</x>
       <y>400</y>
       <w>15</w>
       <h>115</h>
@@ -579,18 +579,18 @@ drawArc(0,height*3/5,width,height*2/5,180,180,true) fg=black bg=#222222 //Parame
     <coordinates>
       <x>920</x>
       <y>500</y>
-      <w>80</w>
+      <w>90</w>
       <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 getEmploymentID()</panel_attributes>
-    <additional_attributes>140.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>160.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>620</x>
-      <y>510</y>
+      <y>515</y>
       <w>305</w>
       <h>20</h>
     </coordinates>
@@ -720,7 +720,7 @@ bg=yellow</panel_attributes>
     <coordinates>
       <x>50</x>
       <y>590</y>
-      <w>985</w>
+      <w>995</w>
       <h>285</h>
     </coordinates>
     <panel_attributes>if(Click event = "Slet ansættelsesID")</panel_attributes>
@@ -731,7 +731,7 @@ bg=yellow</panel_attributes>
     <coordinates>
       <x>50</x>
       <y>875</y>
-      <w>985</w>
+      <w>995</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>else if(Click event = "Tilbage")</panel_attributes>
@@ -743,10 +743,10 @@ bg=yellow</panel_attributes>
       <x>325</x>
       <y>575</y>
       <w>15</w>
-      <h>30</h>
+      <h>25</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
@@ -965,7 +965,7 @@ bg=yellow</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>825</x>
-      <y>655</y>
+      <y>625</y>
       <w>100</w>
       <h>20</h>
     </coordinates>
@@ -977,7 +977,7 @@ return(FirstName)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>825</x>
-      <y>625</y>
+      <y>640</y>
       <w>100</w>
       <h>20</h>
     </coordinates>
@@ -989,7 +989,7 @@ getLastName()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>825</x>
-      <y>665</y>
+      <y>650</y>
       <w>100</w>
       <h>20</h>
     </coordinates>
@@ -1001,7 +1001,7 @@ return(LastName)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>825</x>
-      <y>635</y>
+      <y>665</y>
       <w>100</w>
       <h>20</h>
     </coordinates>
@@ -1060,7 +1060,7 @@ setEmplymentID()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>990</x>
+      <x>1000</x>
       <y>520</y>
       <w>15</w>
       <h>270</h>
@@ -1071,7 +1071,7 @@ setEmplymentID()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>990</x>
+      <x>1000</x>
       <y>780</y>
       <w>10</w>
       <h>30</h>
@@ -1085,24 +1085,24 @@ bg=yellow</panel_attributes>
     <coordinates>
       <x>920</x>
       <y>780</y>
-      <w>80</w>
+      <w>90</w>
       <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 getEmplymentID()</panel_attributes>
-    <additional_attributes>140.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>160.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>830</x>
       <y>795</y>
-      <w>170</w>
+      <w>180</w>
       <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-return(EmploymentID)</panel_attributes>
-    <additional_attributes>10.0;20.0;320.0;20.0</additional_attributes>
+ return(EmploymentID)</panel_attributes>
+    <additional_attributes>10.0;20.0;340.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -1267,17 +1267,17 @@ bg=yellow</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>915</x>
-      <y>785</y>
+      <y>885</y>
       <w>15</w>
-      <h>170</h>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;320.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>990</x>
+      <x>1000</x>
       <y>805</y>
       <w>15</w>
       <h>150</h>
@@ -1547,7 +1547,7 @@ showAdd()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>990</x>
+      <x>1000</x>
       <y>505</y>
       <w>10</w>
       <h>20</h>
@@ -1946,7 +1946,7 @@ getFirstName()</panel_attributes>
       <x>915</x>
       <y>170</y>
       <w>10</w>
-      <h>625</h>
+      <h>720</h>
     </coordinates>
     <panel_attributes>
 bg=yellow</panel_attributes>
@@ -1967,7 +1967,7 @@ bg=yellow</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>430</x>
-      <y>205</y>
+      <y>175</y>
       <w>495</w>
       <h>20</h>
     </coordinates>
@@ -1979,7 +1979,7 @@ return(FirstName)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>430</x>
-      <y>175</y>
+      <y>190</y>
       <w>495</w>
       <h>20</h>
     </coordinates>
@@ -1991,7 +1991,7 @@ getLastName()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>430</x>
-      <y>215</y>
+      <y>200</y>
       <w>495</w>
       <h>20</h>
     </coordinates>
@@ -2003,7 +2003,7 @@ return(LastName)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>430</x>
-      <y>185</y>
+      <y>215</y>
       <w>495</w>
       <h>20</h>
     </coordinates>
@@ -2077,10 +2077,10 @@ bg=yellow</panel_attributes>
       <x>425</x>
       <y>285</y>
       <w>15</w>
-      <h>25</h>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -2088,10 +2088,10 @@ bg=yellow</panel_attributes>
       <x>325</x>
       <y>285</y>
       <w>15</w>
-      <h>25</h>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
@@ -2192,7 +2192,7 @@ bg=yellow</panel_attributes>
     <coordinates>
       <x>30</x>
       <y>0</y>
-      <w>1030</w>
+      <w>1040</w>
       <h>945</h>
     </coordinates>
     <panel_attributes>sd Administrere ansættelsesID</panel_attributes>
@@ -2203,22 +2203,33 @@ bg=yellow</panel_attributes>
     <coordinates>
       <x>920</x>
       <y>510</y>
-      <w>80</w>
+      <w>90</w>
       <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 return(EmploymentID)</panel_attributes>
-    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
     <coordinates>
       <x>40</x>
       <y>105</y>
-      <w>1005</w>
+      <w>1015</w>
       <h>830</h>
     </coordinates>
     <panel_attributes>opt [Administrator == "true"]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>915</x>
+      <y>900</y>
+      <w>10</w>
+      <h>10</h>
+    </coordinates>
+    <panel_attributes>type=termination</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
