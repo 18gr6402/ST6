@@ -1045,7 +1045,7 @@ layer=1</panel_attributes>
     <panel_attributes>
 *Profile*
 bg=#36ff9a
-layer=1</panel_attributes>
+layer=-1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
