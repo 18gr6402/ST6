@@ -943,20 +943,20 @@ m2=*
     </coordinates>
     <panel_attributes>&lt;&lt;abstract class&gt;&gt;
 *SensorManager*
-bg=#9B59B6</panel_attributes>
+bg=#E2A9F3</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>905</x>
+      <x>930</x>
       <y>280</y>
-      <w>135</w>
+      <w>95</w>
       <h>20</h>
     </coordinates>
     <panel_attributes>
 *CountDownTimer*
-bg=#9B59B6</panel_attributes>
+bg=#DE2A9F3</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -1226,7 +1226,7 @@ layer=1</panel_attributes>
     </coordinates>
     <panel_attributes>&lt;&lt;Interface&gt;&gt;
 *SensorEventListener*
-bg=#9B59B6</panel_attributes>
+bg=#E2A9F3</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -1239,7 +1239,7 @@ bg=#9B59B6</panel_attributes>
     </coordinates>
     <panel_attributes>
 *SensorEvent*
-bg=#9B59B6</panel_attributes>
+bg=#E2A9F3</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -1252,7 +1252,7 @@ bg=#9B59B6</panel_attributes>
     </coordinates>
     <panel_attributes>
 *Sensor*
-bg=#9B59B6</panel_attributes>
+bg=#E2A9F3</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
