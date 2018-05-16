@@ -244,13 +244,13 @@ drawArc(0,height*3/5,width,height*2/5,180,180,true) fg=black bg=#222222 //Parame
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>574</x>
+      <x>560</x>
       <y>301</y>
-      <w>84</w>
+      <w>112</w>
       <h>21</h>
     </coordinates>
     <panel_attributes>bg=#0099cc
-loginUser : Patient
+loginPatient : Patient
 
 </panel_attributes>
     <additional_attributes/>
@@ -461,13 +461,13 @@ setClinicID()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>679</x>
+      <x>658</x>
       <y>469</y>
-      <w>119</w>
+      <w>154</w>
       <h>21</h>
     </coordinates>
     <panel_attributes>bg=#0099cc
-loginUser : Practitioner
+loginPractitioner : Practitioner
 </panel_attributes>
     <additional_attributes/>
   </element>
