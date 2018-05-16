@@ -570,7 +570,7 @@ Touch event</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1136</x>
-      <y>108</y>
+      <y>128</y>
       <w>72</w>
       <h>12</h>
     </coordinates>
@@ -625,17 +625,6 @@ patient : Patient</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1168</x>
-      <y>116</y>
-      <w>12</w>
-      <h>68</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLGeneric</id>
     <coordinates>
       <x>900</x>
@@ -651,9 +640,9 @@ bg=yellow</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1168</x>
-      <y>176</y>
+      <y>140</y>
       <w>8</w>
-      <h>696</h>
+      <h>732</h>
     </coordinates>
     <panel_attributes>
 bg=yellow</panel_attributes>
