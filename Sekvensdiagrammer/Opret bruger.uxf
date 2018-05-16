@@ -208,7 +208,7 @@ bg=#ffcc00</panel_attributes>
       <h>35</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-handleNew
+handleNewUser
 (event: OnTouchEvent)</panel_attributes>
     <additional_attributes>20.0;30.0;40.0;30.0;40.0;10.0;10.0;10.0</additional_attributes>
   </element>
@@ -221,7 +221,7 @@ handleNew
       <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-showNew()</panel_attributes>
+showNewUser()</panel_attributes>
     <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
