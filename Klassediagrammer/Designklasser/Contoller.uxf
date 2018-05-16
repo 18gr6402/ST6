@@ -28,7 +28,7 @@ fontfamily=Monospaced //possible: SansSerif,Serif,Monospaced
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>616</x>
+      <x>623</x>
       <y>231</y>
       <w>273</w>
       <h>119</h>
@@ -53,7 +53,7 @@ MenuCtrl
     <coordinates>
       <x>84</x>
       <y>231</y>
-      <w>245</w>
+      <w>252</w>
       <h>140</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Controller&gt;&gt;
@@ -67,7 +67,7 @@ LoginCtrl
 + LoginCtrl() : void
 + showLogin() : void
 - void handleLogin(event : OnTouchEvent)
-- void handleNew(event : OnTouchEvent)
+- void handleNewUser(event : OnTouchEvent)
 + setCheckPractitioner(term : Boolean) : void
 + getCheckPractitioner() : Boolean
 + checkPractitioner() : BooleanProperty
@@ -77,13 +77,13 @@ LoginCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>336</x>
+      <x>343</x>
       <y>231</y>
       <w>273</w>
       <h>182</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Controller&gt;&gt;
-NewCtrl
+NewUserCtrl
 --
 - employmentIDField: TextField
 - cprField: TextField
@@ -94,8 +94,8 @@ NewCtrl
 - checkPractitioner : Chechbox
 - clinicField : TextField
 --
-+ NewCtrl() : void
-+ showNew() : void
++ NewUserCtrl() : void
++ showNewUser() : void
 + setCheckPractitioner(term : Boolean) : void
 + getCheckPractitioner() : Boolean
 + checkPractitioner() : BooleanProperty
@@ -320,7 +320,7 @@ SymptomsCtrl
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>896</x>
+      <x>903</x>
       <y>231</y>
       <w>245</w>
       <h>133</h>

@@ -54,7 +54,7 @@ bg=pink</panel_attributes>
 
 
 
-*NewCtr*
+*NewUserCtr*
 
 bg=pink</panel_attributes>
     <additional_attributes/>
@@ -1004,7 +1004,7 @@ layer=1</panel_attributes>
       <h>20</h>
     </coordinates>
     <panel_attributes>
-*New*
+*NewUser*
 bg=#36ff9a
 layer=1</panel_attributes>
     <additional_attributes/>
