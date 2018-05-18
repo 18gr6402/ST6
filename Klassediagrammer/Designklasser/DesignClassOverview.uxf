@@ -1224,7 +1224,7 @@ layer=1</panel_attributes>
       <w>140</w>
       <h>28</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;Ekternal Interface&gt;&gt;
+    <panel_attributes>&lt;&lt;External Interface&gt;&gt;
 *SensorEventListener*
 bg=#E2A9F3</panel_attributes>
     <additional_attributes/>
