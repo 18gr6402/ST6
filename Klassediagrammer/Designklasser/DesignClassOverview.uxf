@@ -938,10 +938,10 @@ m2=*
     <coordinates>
       <x>868</x>
       <y>322</y>
-      <w>133</w>
+      <w>140</w>
       <h>28</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;abstract class&gt;&gt;
+    <panel_attributes>
 *SensorManager*
 bg=#E2A9F3</panel_attributes>
     <additional_attributes/>
@@ -949,9 +949,9 @@ bg=#E2A9F3</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1120</x>
+      <x>1113</x>
       <y>371</y>
-      <w>133</w>
+      <w>140</w>
       <h>28</h>
     </coordinates>
     <panel_attributes>
@@ -1221,10 +1221,10 @@ layer=1</panel_attributes>
     <coordinates>
       <x>798</x>
       <y>266</y>
-      <w>133</w>
+      <w>140</w>
       <h>28</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+    <panel_attributes>&lt;&lt;Ekternal Interface&gt;&gt;
 *SensorEventListener*
 bg=#E2A9F3</panel_attributes>
     <additional_attributes/>
@@ -1232,9 +1232,9 @@ bg=#E2A9F3</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>798</x>
+      <x>791</x>
       <y>371</y>
-      <w>133</w>
+      <w>140</w>
       <h>28</h>
     </coordinates>
     <panel_attributes>
@@ -1247,7 +1247,7 @@ bg=#E2A9F3</panel_attributes>
     <coordinates>
       <x>938</x>
       <y>371</y>
-      <w>133</w>
+      <w>140</w>
       <h>28</h>
     </coordinates>
     <panel_attributes>
