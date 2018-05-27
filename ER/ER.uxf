@@ -173,13 +173,13 @@ Threshold</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>90</x>
+      <x>100</x>
       <y>350</y>
-      <w>140</w>
+      <w>120</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>employmentID
------------------</panel_attributes>
+----------------</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -813,13 +813,13 @@ Threshold</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>220</x>
+      <x>210</x>
       <y>360</y>
-      <w>70</w>
+      <w>80</w>
       <h>40</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>50.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
