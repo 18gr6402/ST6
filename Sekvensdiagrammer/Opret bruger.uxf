@@ -4,8 +4,8 @@
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>80</x>
-      <y>40</y>
+      <x>15</x>
+      <y>25</y>
       <w>30</w>
       <h>60</h>
     </coordinates>
@@ -16,8 +16,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>90</x>
-      <y>85</y>
+      <x>25</x>
+      <y>70</y>
       <w>15</w>
       <h>980</h>
     </coordinates>
@@ -27,8 +27,8 @@
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>65</x>
-      <y>15</y>
+      <x>0</x>
+      <y>0</y>
       <w>670</w>
       <h>1040</h>
     </coordinates>
@@ -38,8 +38,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>140</x>
-      <y>75</y>
+      <x>75</x>
+      <y>60</y>
       <w>45</w>
       <h>15</h>
     </coordinates>
@@ -50,8 +50,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>155</x>
-      <y>155</y>
+      <x>90</x>
+      <y>140</y>
       <w>15</w>
       <h>865</h>
     </coordinates>
@@ -61,8 +61,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>215</x>
-      <y>75</y>
+      <x>150</x>
+      <y>60</y>
       <w>45</w>
       <h>15</h>
     </coordinates>
@@ -73,8 +73,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>365</x>
-      <y>75</y>
+      <x>300</x>
+      <y>60</y>
       <w>45</w>
       <h>15</h>
     </coordinates>
@@ -85,8 +85,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>290</x>
-      <y>75</y>
+      <x>225</x>
+      <y>60</y>
       <w>45</w>
       <h>15</h>
     </coordinates>
@@ -98,8 +98,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>230</x>
-      <y>155</y>
+      <x>165</x>
+      <y>140</y>
       <w>15</w>
       <h>865</h>
     </coordinates>
@@ -109,8 +109,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>305</x>
-      <y>1020</y>
+      <x>240</x>
+      <y>1005</y>
       <w>15</w>
       <h>45</h>
     </coordinates>
@@ -120,8 +120,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>90</x>
-      <y>90</y>
+      <x>25</x>
+      <y>75</y>
       <w>75</w>
       <h>20</h>
     </coordinates>
@@ -132,8 +132,8 @@ Create new user</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>155</x>
-      <y>95</y>
+      <x>90</x>
+      <y>80</y>
       <w>10</w>
       <h>65</h>
     </coordinates>
@@ -144,8 +144,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>155</x>
-      <y>85</y>
+      <x>90</x>
+      <y>70</y>
       <w>15</w>
       <h>20</h>
     </coordinates>
@@ -155,8 +155,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>95</y>
+      <x>95</x>
+      <y>80</y>
       <w>80</w>
       <h>20</h>
     </coordinates>
@@ -167,8 +167,8 @@ Touch event</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>230</x>
-      <y>95</y>
+      <x>165</x>
+      <y>80</y>
       <w>10</w>
       <h>65</h>
     </coordinates>
@@ -179,8 +179,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>230</x>
-      <y>85</y>
+      <x>165</x>
+      <y>70</y>
       <w>15</w>
       <h>20</h>
     </coordinates>
@@ -190,8 +190,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>235</x>
-      <y>115</y>
+      <x>170</x>
+      <y>100</y>
       <w>10</w>
       <h>40</h>
     </coordinates>
@@ -202,8 +202,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>235</x>
-      <y>105</y>
+      <x>170</x>
+      <y>90</y>
       <w>100</w>
       <h>25</h>
     </coordinates>
@@ -215,8 +215,8 @@ handleNewUser
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>240</x>
-      <y>125</y>
+      <x>175</x>
+      <y>110</y>
       <w>75</w>
       <h>20</h>
     </coordinates>
@@ -227,8 +227,8 @@ showNewUser()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>305</x>
-      <y>130</y>
+      <x>240</x>
+      <y>115</y>
       <w>10</w>
       <h>160</h>
     </coordinates>
@@ -239,8 +239,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>305</x>
-      <y>85</y>
+      <x>240</x>
+      <y>70</y>
       <w>15</w>
       <h>55</h>
     </coordinates>
@@ -250,8 +250,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>380</x>
-      <y>130</y>
+      <x>315</x>
+      <y>115</y>
       <w>10</w>
       <h>160</h>
     </coordinates>
@@ -262,8 +262,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>380</x>
-      <y>85</y>
+      <x>315</x>
+      <y>70</y>
       <w>15</w>
       <h>55</h>
     </coordinates>
@@ -273,8 +273,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>90</x>
-      <y>160</y>
+      <x>25</x>
+      <y>145</y>
       <w>225</w>
       <h>20</h>
     </coordinates>
@@ -285,8 +285,8 @@ Enter profile information</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>310</x>
-      <y>165</y>
+      <x>245</x>
+      <y>150</y>
       <w>80</w>
       <h>20</h>
     </coordinates>
@@ -297,8 +297,8 @@ Touch event</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>385</x>
-      <y>185</y>
+      <x>320</x>
+      <y>170</y>
       <w>10</w>
       <h>100</h>
     </coordinates>
@@ -309,8 +309,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>385</x>
-      <y>175</y>
+      <x>320</x>
+      <y>160</y>
       <w>100</w>
       <h>25</h>
     </coordinates>
@@ -322,8 +322,8 @@ handleOk
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>310</x>
-      <y>185</y>
+      <x>245</x>
+      <y>170</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -334,8 +334,8 @@ getFirstName()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>310</x>
-      <y>195</y>
+      <x>245</x>
+      <y>180</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -346,8 +346,8 @@ return(FirstName)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>310</x>
-      <y>210</y>
+      <x>245</x>
+      <y>195</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -358,8 +358,8 @@ getLastName()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>310</x>
-      <y>220</y>
+      <x>245</x>
+      <y>205</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -370,8 +370,8 @@ return(LastName)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>310</x>
-      <y>235</y>
+      <x>245</x>
+      <y>220</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -382,8 +382,8 @@ getPassword()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>310</x>
-      <y>260</y>
+      <x>245</x>
+      <y>245</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -394,8 +394,8 @@ getPassword2()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>310</x>
-      <y>245</y>
+      <x>245</x>
+      <y>230</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -406,8 +406,8 @@ return(Password)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>310</x>
-      <y>270</y>
+      <x>245</x>
+      <y>255</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -418,8 +418,8 @@ return(Password2)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>75</x>
-      <y>295</y>
+      <x>10</x>
+      <y>280</y>
       <w>650</w>
       <h>300</h>
     </coordinates>
@@ -429,8 +429,8 @@ return(Password2)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>395</y>
+      <x>405</x>
+      <y>380</y>
       <w>160</w>
       <h>20</h>
     </coordinates>
@@ -441,8 +441,8 @@ getCPR()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>405</y>
+      <x>405</x>
+      <y>390</y>
       <w>160</w>
       <h>20</h>
     </coordinates>
@@ -453,8 +453,8 @@ return(CPR)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>620</x>
-      <y>400</y>
+      <x>555</x>
+      <y>385</y>
       <w>10</w>
       <h>95</h>
     </coordinates>
@@ -465,8 +465,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>420</y>
+      <x>405</x>
+      <y>405</y>
       <w>160</w>
       <h>20</h>
     </coordinates>
@@ -477,8 +477,8 @@ getFirstName()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>485</y>
+      <x>325</x>
+      <y>470</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -489,8 +489,8 @@ return(CPR)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>430</y>
+      <x>405</x>
+      <y>415</y>
       <w>160</w>
       <h>20</h>
     </coordinates>
@@ -501,8 +501,8 @@ return(FirstName)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>495</y>
+      <x>325</x>
+      <y>480</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -513,8 +513,8 @@ return(FirstName)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>305</x>
-      <y>285</y>
+      <x>240</x>
+      <y>270</y>
       <w>15</w>
       <h>35</h>
     </coordinates>
@@ -524,8 +524,8 @@ return(FirstName)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>465</x>
-      <y>315</y>
+      <x>400</x>
+      <y>300</y>
       <w>10</w>
       <h>710</h>
     </coordinates>
@@ -536,8 +536,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>380</x>
-      <y>285</y>
+      <x>315</x>
+      <y>270</y>
       <w>15</w>
       <h>35</h>
     </coordinates>
@@ -547,8 +547,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>430</x>
-      <y>300</y>
+      <x>365</x>
+      <y>285</y>
       <w>80</w>
       <h>15</h>
     </coordinates>
@@ -561,8 +561,8 @@ loginPatient : Patient
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>305</x>
-      <y>310</y>
+      <x>240</x>
+      <y>295</y>
       <w>10</w>
       <h>80</h>
     </coordinates>
@@ -573,8 +573,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>310</x>
-      <y>315</y>
+      <x>245</x>
+      <y>300</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -585,8 +585,8 @@ getCPR()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>310</x>
-      <y>325</y>
+      <x>245</x>
+      <y>310</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -597,8 +597,8 @@ return(CPR)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>330</y>
+      <x>325</x>
+      <y>315</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -609,8 +609,8 @@ setCPR()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>340</y>
+      <x>325</x>
+      <y>325</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -621,8 +621,8 @@ setFirstName()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>350</y>
+      <x>325</x>
+      <y>335</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -633,8 +633,8 @@ setLastName()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>445</y>
+      <x>405</x>
+      <y>430</y>
       <w>160</w>
       <h>20</h>
     </coordinates>
@@ -645,8 +645,8 @@ getLastName()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>455</y>
+      <x>405</x>
+      <y>440</y>
       <w>160</w>
       <h>20</h>
     </coordinates>
@@ -657,8 +657,8 @@ return(LastName)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>505</y>
+      <x>325</x>
+      <y>490</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -669,8 +669,8 @@ return(LastName)</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>600</x>
-      <y>250</y>
+      <x>535</x>
+      <y>235</y>
       <w>50</w>
       <h>40</h>
     </coordinates>
@@ -691,8 +691,8 @@ drawArc(0,height*3/5,width,height*2/5,180,180,true) fg=black bg=#222222 //Parame
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>620</x>
-      <y>285</y>
+      <x>555</x>
+      <y>270</y>
       <w>15</w>
       <h>125</h>
     </coordinates>
@@ -702,8 +702,8 @@ drawArc(0,height*3/5,width,height*2/5,180,180,true) fg=black bg=#222222 //Parame
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>480</x>
-      <y>600</y>
+      <x>415</x>
+      <y>585</y>
       <w>100</w>
       <h>15</h>
     </coordinates>
@@ -716,8 +716,8 @@ loginPractitioner : Practitioner
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>85</x>
-      <y>395</y>
+      <x>20</x>
+      <y>380</y>
       <w>630</w>
       <h>160</h>
     </coordinates>
@@ -727,8 +727,8 @@ loginPractitioner : Practitioner
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>305</x>
-      <y>550</y>
+      <x>240</x>
+      <y>535</y>
       <w>15</w>
       <h>20</h>
     </coordinates>
@@ -738,8 +738,8 @@ loginPractitioner : Practitioner
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>380</x>
-      <y>535</y>
+      <x>315</x>
+      <y>520</y>
       <w>15</w>
       <h>35</h>
     </coordinates>
@@ -749,8 +749,8 @@ loginPractitioner : Practitioner
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>85</x>
-      <y>555</y>
+      <x>20</x>
+      <y>540</y>
       <w>630</w>
       <h>30</h>
     </coordinates>
@@ -760,8 +760,8 @@ loginPractitioner : Practitioner
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>310</x>
-      <y>560</y>
+      <x>245</x>
+      <y>545</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -772,8 +772,8 @@ show error</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>90</x>
-      <y>565</y>
+      <x>25</x>
+      <y>550</y>
       <w>225</w>
       <h>20</h>
     </coordinates>
@@ -784,8 +784,8 @@ show error</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>385</x>
-      <y>565</y>
+      <x>320</x>
+      <y>550</y>
       <w>10</w>
       <h>10</h>
     </coordinates>
@@ -796,8 +796,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>380</x>
-      <y>560</y>
+      <x>315</x>
+      <y>545</y>
       <w>10</w>
       <h>20</h>
     </coordinates>
@@ -808,8 +808,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>305</x>
-      <y>560</y>
+      <x>240</x>
+      <y>545</y>
       <w>10</w>
       <h>20</h>
     </coordinates>
@@ -820,8 +820,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>75</x>
-      <y>595</y>
+      <x>10</x>
+      <y>580</y>
       <w>650</w>
       <h>380</h>
     </coordinates>
@@ -831,8 +831,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>305</x>
-      <y>575</y>
+      <x>240</x>
+      <y>560</y>
       <w>15</w>
       <h>45</h>
     </coordinates>
@@ -842,8 +842,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>380</x>
-      <y>575</y>
+      <x>315</x>
+      <y>560</y>
       <w>15</w>
       <h>45</h>
     </coordinates>
@@ -853,8 +853,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>305</x>
-      <y>610</y>
+      <x>240</x>
+      <y>595</y>
       <w>10</w>
       <h>115</h>
     </coordinates>
@@ -865,8 +865,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>380</x>
-      <y>610</y>
+      <x>315</x>
+      <y>595</y>
       <w>10</w>
       <h>115</h>
     </coordinates>
@@ -877,8 +877,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>525</x>
-      <y>615</y>
+      <x>460</x>
+      <y>600</y>
       <w>10</w>
       <h>410</h>
     </coordinates>
@@ -889,8 +889,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>310</x>
-      <y>615</y>
+      <x>245</x>
+      <y>600</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -901,8 +901,8 @@ getEmploymentID()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>310</x>
-      <y>625</y>
+      <x>245</x>
+      <y>610</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -913,8 +913,8 @@ return(EmploymentID)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>310</x>
-      <y>640</y>
+      <x>245</x>
+      <y>625</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -925,8 +925,8 @@ getClinic()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>310</x>
-      <y>650</y>
+      <x>245</x>
+      <y>635</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -937,8 +937,8 @@ return(Clinic)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>655</y>
+      <x>325</x>
+      <y>640</y>
       <w>145</w>
       <h>20</h>
     </coordinates>
@@ -949,8 +949,8 @@ setEmploymentID()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>675</y>
+      <x>325</x>
+      <y>660</y>
       <w>145</w>
       <h>20</h>
     </coordinates>
@@ -961,8 +961,8 @@ setFirstName()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>665</y>
+      <x>325</x>
+      <y>650</y>
       <w>145</w>
       <h>20</h>
     </coordinates>
@@ -973,8 +973,8 @@ setClinic()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>685</y>
+      <x>325</x>
+      <y>670</y>
       <w>145</w>
       <h>20</h>
     </coordinates>
@@ -985,8 +985,8 @@ setLastName()</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>85</x>
-      <y>730</y>
+      <x>20</x>
+      <y>715</y>
       <w>630</w>
       <h>195</h>
     </coordinates>
@@ -997,8 +997,8 @@ setLastName()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>530</x>
-      <y>730</y>
+      <x>465</x>
+      <y>715</y>
       <w>100</w>
       <h>20</h>
     </coordinates>
@@ -1009,8 +1009,8 @@ getEmploymentID()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>530</x>
-      <y>740</y>
+      <x>465</x>
+      <y>725</y>
       <w>100</w>
       <h>20</h>
     </coordinates>
@@ -1021,8 +1021,8 @@ return(EmploymentID)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>620</x>
-      <y>735</y>
+      <x>555</x>
+      <y>720</y>
       <w>10</w>
       <h>120</h>
     </coordinates>
@@ -1033,8 +1033,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>530</x>
-      <y>755</y>
+      <x>465</x>
+      <y>740</y>
       <w>100</w>
       <h>20</h>
     </coordinates>
@@ -1045,8 +1045,8 @@ getClinci()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>530</x>
-      <y>790</y>
+      <x>465</x>
+      <y>775</y>
       <w>100</w>
       <h>20</h>
     </coordinates>
@@ -1057,8 +1057,8 @@ return(FirstName)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>530</x>
-      <y>805</y>
+      <x>465</x>
+      <y>790</y>
       <w>100</w>
       <h>20</h>
     </coordinates>
@@ -1069,8 +1069,8 @@ getLastName()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>530</x>
-      <y>815</y>
+      <x>465</x>
+      <y>800</y>
       <w>100</w>
       <h>20</h>
     </coordinates>
@@ -1081,8 +1081,8 @@ return(LastName)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>530</x>
-      <y>780</y>
+      <x>465</x>
+      <y>765</y>
       <w>100</w>
       <h>20</h>
     </coordinates>
@@ -1093,8 +1093,8 @@ getFirstName()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>530</x>
-      <y>765</y>
+      <x>465</x>
+      <y>750</y>
       <w>100</w>
       <h>20</h>
     </coordinates>
@@ -1105,8 +1105,8 @@ return(Clinic)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>845</y>
+      <x>325</x>
+      <y>830</y>
       <w>145</w>
       <h>20</h>
     </coordinates>
@@ -1117,8 +1117,8 @@ return(EmploymentID)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>865</y>
+      <x>325</x>
+      <y>850</y>
       <w>145</w>
       <h>20</h>
     </coordinates>
@@ -1129,8 +1129,8 @@ return(FirstName)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>875</y>
+      <x>325</x>
+      <y>860</y>
       <w>145</w>
       <h>20</h>
     </coordinates>
@@ -1141,8 +1141,8 @@ return(LastName)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>855</y>
+      <x>325</x>
+      <y>840</y>
       <w>145</w>
       <h>20</h>
     </coordinates>
@@ -1153,8 +1153,8 @@ return(Clinic)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>305</x>
-      <y>845</y>
+      <x>240</x>
+      <y>830</y>
       <w>10</w>
       <h>65</h>
     </coordinates>
@@ -1165,8 +1165,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>380</x>
-      <y>310</y>
+      <x>315</x>
+      <y>295</y>
       <w>10</w>
       <h>80</h>
     </coordinates>
@@ -1177,8 +1177,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>305</x>
-      <y>485</y>
+      <x>240</x>
+      <y>470</y>
       <w>10</w>
       <h>55</h>
     </coordinates>
@@ -1189,8 +1189,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>385</x>
-      <y>315</y>
+      <x>320</x>
+      <y>300</y>
       <w>10</w>
       <h>70</h>
     </coordinates>
@@ -1201,8 +1201,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>380</x>
-      <y>485</y>
+      <x>315</x>
+      <y>470</y>
       <w>10</w>
       <h>55</h>
     </coordinates>
@@ -1213,8 +1213,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>305</x>
-      <y>385</y>
+      <x>240</x>
+      <y>370</y>
       <w>15</w>
       <h>110</h>
     </coordinates>
@@ -1224,8 +1224,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>380</x>
-      <y>385</y>
+      <x>315</x>
+      <y>370</y>
       <w>15</w>
       <h>110</h>
     </coordinates>
@@ -1235,8 +1235,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>385</x>
-      <y>490</y>
+      <x>320</x>
+      <y>475</y>
       <w>10</w>
       <h>45</h>
     </coordinates>
@@ -1247,8 +1247,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>385</x>
-      <y>615</y>
+      <x>320</x>
+      <y>600</y>
       <w>10</w>
       <h>105</h>
     </coordinates>
@@ -1259,8 +1259,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>620</x>
-      <y>490</y>
+      <x>555</x>
+      <y>475</y>
       <w>15</w>
       <h>255</h>
     </coordinates>
@@ -1270,8 +1270,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>380</x>
-      <y>845</y>
+      <x>315</x>
+      <y>830</y>
       <w>10</w>
       <h>65</h>
     </coordinates>
@@ -1282,8 +1282,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>385</x>
-      <y>850</y>
+      <x>320</x>
+      <y>835</y>
       <w>10</w>
       <h>55</h>
     </coordinates>
@@ -1294,8 +1294,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>305</x>
-      <y>720</y>
+      <x>240</x>
+      <y>705</y>
       <w>15</w>
       <h>135</h>
     </coordinates>
@@ -1305,8 +1305,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>380</x>
-      <y>720</y>
+      <x>315</x>
+      <y>705</y>
       <w>15</w>
       <h>135</h>
     </coordinates>
@@ -1316,8 +1316,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>85</x>
-      <y>925</y>
+      <x>20</x>
+      <y>910</y>
       <w>630</w>
       <h>40</h>
     </coordinates>
@@ -1327,8 +1327,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>310</x>
-      <y>940</y>
+      <x>245</x>
+      <y>925</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -1339,8 +1339,8 @@ show error</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>90</x>
-      <y>945</y>
+      <x>25</x>
+      <y>930</y>
       <w>225</w>
       <h>20</h>
     </coordinates>
@@ -1351,8 +1351,8 @@ show error</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>385</x>
-      <y>945</y>
+      <x>320</x>
+      <y>930</y>
       <w>10</w>
       <h>10</h>
     </coordinates>
@@ -1363,8 +1363,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>380</x>
-      <y>940</y>
+      <x>315</x>
+      <y>925</y>
       <w>10</w>
       <h>20</h>
     </coordinates>
@@ -1375,8 +1375,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>305</x>
-      <y>940</y>
+      <x>240</x>
+      <y>925</y>
       <w>10</w>
       <h>20</h>
     </coordinates>
@@ -1387,8 +1387,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>305</x>
-      <y>905</y>
+      <x>240</x>
+      <y>890</y>
       <w>15</w>
       <h>45</h>
     </coordinates>
@@ -1398,8 +1398,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>380</x>
-      <y>905</y>
+      <x>315</x>
+      <y>890</y>
       <w>15</w>
       <h>45</h>
     </coordinates>
@@ -1409,8 +1409,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>305</x>
-      <y>970</y>
+      <x>240</x>
+      <y>955</y>
       <w>15</w>
       <h>25</h>
     </coordinates>
@@ -1420,8 +1420,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>620</x>
-      <y>850</y>
+      <x>555</x>
+      <y>835</y>
       <w>15</w>
       <h>215</h>
     </coordinates>
@@ -1431,8 +1431,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>360</y>
+      <x>325</x>
+      <y>345</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -1443,8 +1443,8 @@ setPassword()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>370</y>
+      <x>325</x>
+      <y>355</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -1455,8 +1455,8 @@ setPassword2()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>470</y>
+      <x>405</x>
+      <y>455</y>
       <w>160</w>
       <h>20</h>
     </coordinates>
@@ -1467,8 +1467,8 @@ getPassword()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>480</y>
+      <x>405</x>
+      <y>465</y>
       <w>160</w>
       <h>20</h>
     </coordinates>
@@ -1479,8 +1479,8 @@ return(Password)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>515</y>
+      <x>325</x>
+      <y>500</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -1491,8 +1491,8 @@ return(Password)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>695</y>
+      <x>325</x>
+      <y>680</y>
       <w>145</w>
       <h>20</h>
     </coordinates>
@@ -1503,8 +1503,8 @@ setPassword()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>705</y>
+      <x>325</x>
+      <y>690</y>
       <w>145</w>
       <h>20</h>
     </coordinates>
@@ -1515,8 +1515,8 @@ setPassword2()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>530</x>
-      <y>830</y>
+      <x>465</x>
+      <y>815</y>
       <w>100</w>
       <h>20</h>
     </coordinates>
@@ -1527,8 +1527,8 @@ getPassword()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>530</x>
-      <y>840</y>
+      <x>465</x>
+      <y>825</y>
       <w>100</w>
       <h>20</h>
     </coordinates>
@@ -1539,8 +1539,8 @@ return(Password)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>885</y>
+      <x>325</x>
+      <y>870</y>
       <w>145</w>
       <h>20</h>
     </coordinates>
@@ -1551,8 +1551,8 @@ return(Password)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>75</x>
-      <y>975</y>
+      <x>10</x>
+      <y>960</y>
       <w>650</w>
       <h>70</h>
     </coordinates>
@@ -1562,8 +1562,8 @@ return(Password)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>90</x>
-      <y>980</y>
+      <x>25</x>
+      <y>965</y>
       <w>225</w>
       <h>20</h>
     </coordinates>
@@ -1574,8 +1574,8 @@ Turn back to login view</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>310</x>
-      <y>985</y>
+      <x>245</x>
+      <y>970</y>
       <w>80</w>
       <h>20</h>
     </coordinates>
@@ -1586,8 +1586,8 @@ Touch event</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>385</x>
-      <y>995</y>
+      <x>320</x>
+      <y>980</y>
       <w>100</w>
       <h>25</h>
     </coordinates>
@@ -1599,8 +1599,8 @@ handleCancel
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>305</x>
-      <y>985</y>
+      <x>240</x>
+      <y>970</y>
       <w>10</w>
       <h>40</h>
     </coordinates>
@@ -1611,8 +1611,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>380</x>
-      <y>985</y>
+      <x>315</x>
+      <y>970</y>
       <w>10</w>
       <h>40</h>
     </coordinates>
@@ -1623,8 +1623,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>380</x>
-      <y>970</y>
+      <x>315</x>
+      <y>955</y>
       <w>15</w>
       <h>25</h>
     </coordinates>
@@ -1634,8 +1634,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>385</x>
-      <y>1005</y>
+      <x>320</x>
+      <y>990</y>
       <w>10</w>
       <h>15</h>
     </coordinates>
@@ -1646,8 +1646,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>1010</y>
+      <x>95</x>
+      <y>995</y>
       <w>235</w>
       <h>30</h>
     </coordinates>
@@ -1658,8 +1658,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>155</x>
-      <y>1010</y>
+      <x>90</x>
+      <y>995</y>
       <w>10</w>
       <h>15</h>
     </coordinates>
@@ -1670,8 +1670,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>230</x>
-      <y>1010</y>
+      <x>165</x>
+      <y>995</y>
       <w>10</w>
       <h>15</h>
     </coordinates>
@@ -1682,8 +1682,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>90</x>
-      <y>1010</y>
+      <x>25</x>
+      <y>995</y>
       <w>75</w>
       <h>20</h>
     </coordinates>
@@ -1694,8 +1694,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>230</x>
-      <y>1020</y>
+      <x>165</x>
+      <y>1005</y>
       <w>15</w>
       <h>45</h>
     </coordinates>
@@ -1705,8 +1705,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>155</x>
-      <y>1020</y>
+      <x>90</x>
+      <y>1005</y>
       <w>15</w>
       <h>45</h>
     </coordinates>
@@ -1716,8 +1716,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>380</x>
-      <y>1020</y>
+      <x>315</x>
+      <y>1005</y>
       <w>15</w>
       <h>45</h>
     </coordinates>
@@ -1727,8 +1727,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>465</x>
-      <y>1020</y>
+      <x>400</x>
+      <y>1005</y>
       <w>15</w>
       <h>20</h>
     </coordinates>
@@ -1738,8 +1738,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>525</x>
-      <y>1020</y>
+      <x>460</x>
+      <y>1005</y>
       <w>15</w>
       <h>20</h>
     </coordinates>
@@ -1749,8 +1749,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>465</x>
-      <y>1030</y>
+      <x>400</x>
+      <y>1015</y>
       <w>10</w>
       <h>10</h>
     </coordinates>
@@ -1760,8 +1760,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>525</x>
-      <y>1030</y>
+      <x>460</x>
+      <y>1015</y>
       <w>10</w>
       <h>10</h>
     </coordinates>
@@ -1771,8 +1771,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>310</y>
+      <x>325</x>
+      <y>295</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -1783,8 +1783,8 @@ new</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>610</y>
+      <x>325</x>
+      <y>595</y>
       <w>145</w>
       <h>20</h>
     </coordinates>
@@ -1795,8 +1795,8 @@ new</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>630</x>
-      <y>75</y>
+      <x>565</x>
+      <y>60</y>
       <w>45</w>
       <h>15</h>
     </coordinates>
@@ -1808,8 +1808,8 @@ new</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>680</x>
-      <y>75</y>
+      <x>615</x>
+      <y>60</y>
       <w>45</w>
       <h>15</h>
     </coordinates>
@@ -1820,8 +1820,8 @@ new</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>650</x>
-      <y>85</y>
+      <x>585</x>
+      <y>70</y>
       <w>15</w>
       <h>450</h>
     </coordinates>
@@ -1831,8 +1831,8 @@ new</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>700</x>
-      <y>85</y>
+      <x>635</x>
+      <y>70</y>
       <w>15</w>
       <h>450</h>
     </coordinates>
@@ -1842,8 +1842,8 @@ new</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>520</y>
+      <x>325</x>
+      <y>505</y>
       <w>270</w>
       <h>20</h>
     </coordinates>
@@ -1854,8 +1854,8 @@ showMenu</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>650</x>
-      <y>525</y>
+      <x>585</x>
+      <y>510</y>
       <w>10</w>
       <h>25</h>
     </coordinates>
@@ -1866,8 +1866,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>700</x>
-      <y>525</y>
+      <x>635</x>
+      <y>510</y>
       <w>10</w>
       <h>25</h>
     </coordinates>
@@ -1878,8 +1878,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>90</x>
-      <y>535</y>
+      <x>25</x>
+      <y>520</y>
       <w>570</w>
       <h>20</h>
     </coordinates>
@@ -1890,8 +1890,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>650</x>
-      <y>895</y>
+      <x>585</x>
+      <y>880</y>
       <w>10</w>
       <h>25</h>
     </coordinates>
@@ -1902,8 +1902,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>650</x>
-      <y>545</y>
+      <x>585</x>
+      <y>530</y>
       <w>15</w>
       <h>360</h>
     </coordinates>
@@ -1913,8 +1913,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>700</x>
-      <y>895</y>
+      <x>635</x>
+      <y>880</y>
       <w>10</w>
       <h>25</h>
     </coordinates>
@@ -1925,8 +1925,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>700</x>
-      <y>545</y>
+      <x>635</x>
+      <y>530</y>
       <w>15</w>
       <h>360</h>
     </coordinates>
@@ -1936,8 +1936,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>890</y>
+      <x>325</x>
+      <y>875</y>
       <w>270</w>
       <h>20</h>
     </coordinates>
@@ -1948,8 +1948,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>90</x>
-      <y>905</y>
+      <x>25</x>
+      <y>890</y>
       <w>570</w>
       <h>20</h>
     </coordinates>
@@ -1960,8 +1960,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>650</x>
-      <y>915</y>
+      <x>585</x>
+      <y>900</y>
       <w>15</w>
       <h>150</h>
     </coordinates>
@@ -1971,8 +1971,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>700</x>
-      <y>915</y>
+      <x>635</x>
+      <y>900</y>
       <w>15</w>
       <h>150</h>
     </coordinates>
@@ -1982,8 +1982,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>770</x>
-      <y>40</y>
+      <x>705</x>
+      <y>25</y>
       <w>30</w>
       <h>60</h>
     </coordinates>
@@ -1994,8 +1994,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>780</x>
-      <y>85</y>
+      <x>715</x>
+      <y>70</y>
       <w>15</w>
       <h>710</h>
     </coordinates>
@@ -2005,9 +2005,9 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>770</x>
-      <y>25</y>
-      <w>630</w>
+      <x>705</x>
+      <y>10</y>
+      <w>635</w>
       <h>760</h>
     </coordinates>
     <panel_attributes>sd Opret bruger
@@ -2017,8 +2017,8 @@ lw=2.5</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>830</x>
-      <y>75</y>
+      <x>765</x>
+      <y>60</y>
       <w>45</w>
       <h>15</h>
     </coordinates>
@@ -2029,8 +2029,8 @@ lw=2.5</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>845</x>
-      <y>140</y>
+      <x>780</x>
+      <y>125</y>
       <w>15</w>
       <h>625</h>
     </coordinates>
@@ -2040,8 +2040,8 @@ lw=2.5</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>905</x>
-      <y>75</y>
+      <x>840</x>
+      <y>60</y>
       <w>45</w>
       <h>15</h>
     </coordinates>
@@ -2052,8 +2052,8 @@ lw=2.5</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1055</x>
-      <y>75</y>
+      <x>990</x>
+      <y>60</y>
       <w>45</w>
       <h>15</h>
     </coordinates>
@@ -2064,8 +2064,8 @@ lw=2.5</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>980</x>
-      <y>75</y>
+      <x>915</x>
+      <y>60</y>
       <w>45</w>
       <h>15</h>
     </coordinates>
@@ -2077,8 +2077,8 @@ lw=2.5</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>920</x>
-      <y>140</y>
+      <x>855</x>
+      <y>125</y>
       <w>15</w>
       <h>620</h>
     </coordinates>
@@ -2088,8 +2088,8 @@ lw=2.5</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>995</x>
-      <y>760</y>
+      <x>930</x>
+      <y>745</y>
       <w>15</w>
       <h>35</h>
     </coordinates>
@@ -2099,8 +2099,8 @@ lw=2.5</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>780</x>
-      <y>90</y>
+      <x>715</x>
+      <y>75</y>
       <w>75</w>
       <h>20</h>
     </coordinates>
@@ -2111,8 +2111,8 @@ Create new user</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>845</x>
-      <y>95</y>
+      <x>780</x>
+      <y>80</y>
       <w>10</w>
       <h>50</h>
     </coordinates>
@@ -2123,8 +2123,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>845</x>
-      <y>85</y>
+      <x>780</x>
+      <y>70</y>
       <w>15</w>
       <h>20</h>
     </coordinates>
@@ -2134,8 +2134,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>850</x>
-      <y>95</y>
+      <x>785</x>
+      <y>80</y>
       <w>80</w>
       <h>20</h>
     </coordinates>
@@ -2146,8 +2146,8 @@ Touch event</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>920</x>
-      <y>95</y>
+      <x>855</x>
+      <y>80</y>
       <w>10</w>
       <h>50</h>
     </coordinates>
@@ -2158,8 +2158,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>920</x>
-      <y>85</y>
+      <x>855</x>
+      <y>70</y>
       <w>15</w>
       <h>20</h>
     </coordinates>
@@ -2169,8 +2169,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>925</x>
-      <y>115</y>
+      <x>860</x>
+      <y>100</y>
       <w>10</w>
       <h>25</h>
     </coordinates>
@@ -2181,8 +2181,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>925</x>
-      <y>105</y>
+      <x>860</x>
+      <y>90</y>
       <w>100</w>
       <h>25</h>
     </coordinates>
@@ -2194,8 +2194,8 @@ handleNewUser
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>930</x>
-      <y>125</y>
+      <x>865</x>
+      <y>110</y>
       <w>150</w>
       <h>20</h>
     </coordinates>
@@ -2206,8 +2206,8 @@ showNewUser()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>995</x>
-      <y>145</y>
+      <x>930</x>
+      <y>130</y>
       <w>10</w>
       <h>145</h>
     </coordinates>
@@ -2218,8 +2218,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>995</x>
-      <y>85</y>
+      <x>930</x>
+      <y>70</y>
       <w>15</w>
       <h>70</h>
     </coordinates>
@@ -2229,8 +2229,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1070</x>
-      <y>130</y>
+      <x>1005</x>
+      <y>115</y>
       <w>10</w>
       <h>160</h>
     </coordinates>
@@ -2241,8 +2241,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1070</x>
-      <y>85</y>
+      <x>1005</x>
+      <y>70</y>
       <w>15</w>
       <h>55</h>
     </coordinates>
@@ -2252,8 +2252,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>780</x>
-      <y>160</y>
+      <x>715</x>
+      <y>145</y>
       <w>225</w>
       <h>20</h>
     </coordinates>
@@ -2264,8 +2264,8 @@ Enter profile information</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1000</x>
-      <y>165</y>
+      <x>935</x>
+      <y>150</y>
       <w>80</w>
       <h>20</h>
     </coordinates>
@@ -2276,8 +2276,8 @@ Touch event</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1075</x>
-      <y>185</y>
+      <x>1010</x>
+      <y>170</y>
       <w>10</w>
       <h>105</h>
     </coordinates>
@@ -2288,8 +2288,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1075</x>
-      <y>175</y>
+      <x>1010</x>
+      <y>160</y>
       <w>100</w>
       <h>25</h>
     </coordinates>
@@ -2301,8 +2301,8 @@ handleOk
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1000</x>
-      <y>185</y>
+      <x>935</x>
+      <y>170</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -2313,8 +2313,8 @@ getFirstName()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1000</x>
-      <y>195</y>
+      <x>935</x>
+      <y>180</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -2325,8 +2325,8 @@ return(FirstName)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1000</x>
-      <y>210</y>
+      <x>935</x>
+      <y>195</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -2337,8 +2337,8 @@ getLastName()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1000</x>
-      <y>220</y>
+      <x>935</x>
+      <y>205</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -2349,8 +2349,8 @@ return(LastName)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1000</x>
-      <y>235</y>
+      <x>935</x>
+      <y>220</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -2361,8 +2361,8 @@ getPassword()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1000</x>
-      <y>260</y>
+      <x>935</x>
+      <y>245</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -2373,8 +2373,8 @@ getPassword2()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1000</x>
-      <y>245</y>
+      <x>935</x>
+      <y>230</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -2385,8 +2385,8 @@ return(Password)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1000</x>
-      <y>270</y>
+      <x>935</x>
+      <y>255</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -2397,8 +2397,8 @@ return(Password2)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>775</x>
-      <y>295</y>
+      <x>710</x>
+      <y>280</y>
       <w>540</w>
       <h>85</h>
     </coordinates>
@@ -2410,8 +2410,8 @@ fg=blue</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1290</x>
-      <y>335</y>
+      <x>1225</x>
+      <y>320</y>
       <w>10</w>
       <h>20</h>
     </coordinates>
@@ -2422,8 +2422,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>995</x>
-      <y>285</y>
+      <x>930</x>
+      <y>270</y>
       <w>15</w>
       <h>35</h>
     </coordinates>
@@ -2433,8 +2433,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1180</x>
-      <y>320</y>
+      <x>1115</x>
+      <y>305</y>
       <w>10</w>
       <h>60</h>
     </coordinates>
@@ -2445,8 +2445,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1070</x>
-      <y>285</y>
+      <x>1005</x>
+      <y>270</y>
       <w>15</w>
       <h>35</h>
     </coordinates>
@@ -2456,8 +2456,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1145</x>
-      <y>305</y>
+      <x>1080</x>
+      <y>290</y>
       <w>80</w>
       <h>15</h>
     </coordinates>
@@ -2470,8 +2470,8 @@ loginPatient : Patient
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>995</x>
-      <y>310</y>
+      <x>930</x>
+      <y>295</y>
       <w>10</w>
       <h>70</h>
     </coordinates>
@@ -2482,8 +2482,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1000</x>
-      <y>310</y>
+      <x>935</x>
+      <y>295</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -2494,8 +2494,8 @@ getCPR()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1000</x>
-      <y>320</y>
+      <x>935</x>
+      <y>305</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -2506,8 +2506,8 @@ return(CPR)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>570</y>
+      <x>1015</x>
+      <y>555</y>
       <w>110</w>
       <h>20</h>
     </coordinates>
@@ -2518,8 +2518,8 @@ setFirstName(FirstName)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>580</y>
+      <x>1015</x>
+      <y>565</y>
       <w>110</w>
       <h>20</h>
     </coordinates>
@@ -2530,8 +2530,8 @@ setLastName(LastName)</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>1270</x>
-      <y>250</y>
+      <x>1205</x>
+      <y>235</y>
       <w>50</w>
       <h>40</h>
     </coordinates>
@@ -2552,8 +2552,8 @@ drawArc(0,height*3/5,width,height*2/5,180,180,true) fg=black bg=#222222 //Parame
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1290</x>
-      <y>285</y>
+      <x>1225</x>
+      <y>270</y>
       <w>15</w>
       <h>60</h>
     </coordinates>
@@ -2563,8 +2563,8 @@ drawArc(0,height*3/5,width,height*2/5,180,180,true) fg=black bg=#222222 //Parame
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1135</x>
-      <y>390</y>
+      <x>1070</x>
+      <y>375</y>
       <w>100</w>
       <h>15</h>
     </coordinates>
@@ -2577,8 +2577,8 @@ loginPractitioner : Practitioner
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>995</x>
-      <y>375</y>
+      <x>930</x>
+      <y>360</y>
       <w>15</w>
       <h>25</h>
     </coordinates>
@@ -2588,8 +2588,8 @@ loginPractitioner : Practitioner
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>775</x>
-      <y>380</y>
+      <x>710</x>
+      <y>365</y>
       <w>540</w>
       <h>110</h>
     </coordinates>
@@ -2601,8 +2601,8 @@ fg=blue</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>995</x>
-      <y>390</y>
+      <x>930</x>
+      <y>375</y>
       <w>10</w>
       <h>100</h>
     </coordinates>
@@ -2613,8 +2613,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1070</x>
-      <y>390</y>
+      <x>1005</x>
+      <y>375</y>
       <w>10</w>
       <h>100</h>
     </coordinates>
@@ -2625,8 +2625,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1180</x>
-      <y>405</y>
+      <x>1115</x>
+      <y>390</y>
       <w>10</w>
       <h>85</h>
     </coordinates>
@@ -2637,8 +2637,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1000</x>
-      <y>395</y>
+      <x>935</x>
+      <y>380</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -2649,8 +2649,8 @@ getEmploymentID()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1000</x>
-      <y>405</y>
+      <x>935</x>
+      <y>390</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -2661,8 +2661,8 @@ return(employmentID)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1000</x>
-      <y>420</y>
+      <x>935</x>
+      <y>405</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -2673,8 +2673,8 @@ getClinicID()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1000</x>
-      <y>430</y>
+      <x>935</x>
+      <y>415</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -2685,8 +2685,8 @@ return(clinicID)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>995</x>
-      <y>570</y>
+      <x>930</x>
+      <y>555</y>
       <w>10</w>
       <h>85</h>
     </coordinates>
@@ -2697,8 +2697,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1070</x>
-      <y>310</y>
+      <x>1005</x>
+      <y>295</y>
       <w>10</w>
       <h>70</h>
     </coordinates>
@@ -2709,8 +2709,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1075</x>
-      <y>310</y>
+      <x>1010</x>
+      <y>295</y>
       <w>10</w>
       <h>70</h>
     </coordinates>
@@ -2721,8 +2721,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1070</x>
-      <y>375</y>
+      <x>1005</x>
+      <y>360</y>
       <w>15</w>
       <h>25</h>
     </coordinates>
@@ -2732,8 +2732,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1075</x>
-      <y>395</y>
+      <x>1010</x>
+      <y>380</y>
       <w>10</w>
       <h>95</h>
     </coordinates>
@@ -2744,8 +2744,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1290</x>
-      <y>350</y>
+      <x>1225</x>
+      <y>335</y>
       <w>15</w>
       <h>105</h>
     </coordinates>
@@ -2755,8 +2755,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1070</x>
-      <y>570</y>
+      <x>1005</x>
+      <y>555</y>
       <w>10</w>
       <h>85</h>
     </coordinates>
@@ -2767,8 +2767,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1075</x>
-      <y>575</y>
+      <x>1010</x>
+      <y>560</y>
       <w>10</w>
       <h>75</h>
     </coordinates>
@@ -2779,8 +2779,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>995</x>
-      <y>555</y>
+      <x>930</x>
+      <y>540</y>
       <w>15</w>
       <h>25</h>
     </coordinates>
@@ -2790,8 +2790,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1070</x>
-      <y>555</y>
+      <x>1005</x>
+      <y>540</y>
       <w>15</w>
       <h>25</h>
     </coordinates>
@@ -2801,8 +2801,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>995</x>
-      <y>650</y>
+      <x>930</x>
+      <y>635</y>
       <w>15</w>
       <h>45</h>
     </coordinates>
@@ -2812,8 +2812,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1070</x>
-      <y>650</y>
+      <x>1005</x>
+      <y>635</y>
       <w>15</w>
       <h>45</h>
     </coordinates>
@@ -2823,8 +2823,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>995</x>
-      <y>705</y>
+      <x>930</x>
+      <y>690</y>
       <w>15</w>
       <h>30</h>
     </coordinates>
@@ -2834,8 +2834,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1290</x>
-      <y>625</y>
+      <x>1225</x>
+      <y>610</y>
       <w>15</w>
       <h>170</h>
     </coordinates>
@@ -2845,8 +2845,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>590</y>
+      <x>1015</x>
+      <y>575</y>
       <w>110</w>
       <h>20</h>
     </coordinates>
@@ -2857,8 +2857,8 @@ setPassword(Password)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>775</x>
-      <y>675</y>
+      <x>710</x>
+      <y>660</y>
       <w>620</w>
       <h>35</h>
     </coordinates>
@@ -2870,8 +2870,8 @@ fg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>780</x>
-      <y>720</y>
+      <x>715</x>
+      <y>705</y>
       <w>225</w>
       <h>20</h>
     </coordinates>
@@ -2882,8 +2882,8 @@ Turn back to login view</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1000</x>
-      <y>725</y>
+      <x>935</x>
+      <y>710</y>
       <w>80</w>
       <h>20</h>
     </coordinates>
@@ -2894,8 +2894,8 @@ Touch event</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1075</x>
-      <y>735</y>
+      <x>1010</x>
+      <y>720</y>
       <w>100</w>
       <h>25</h>
     </coordinates>
@@ -2907,8 +2907,8 @@ handleCancel
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>995</x>
-      <y>725</y>
+      <x>930</x>
+      <y>710</y>
       <w>10</w>
       <h>40</h>
     </coordinates>
@@ -2919,8 +2919,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1070</x>
-      <y>725</y>
+      <x>1005</x>
+      <y>710</y>
       <w>10</w>
       <h>40</h>
     </coordinates>
@@ -2931,8 +2931,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1070</x>
-      <y>705</y>
+      <x>1005</x>
+      <y>690</y>
       <w>15</w>
       <h>30</h>
     </coordinates>
@@ -2942,8 +2942,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1075</x>
-      <y>745</y>
+      <x>1010</x>
+      <y>730</y>
       <w>10</w>
       <h>15</h>
     </coordinates>
@@ -2954,8 +2954,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>925</x>
-      <y>750</y>
+      <x>860</x>
+      <y>735</y>
       <w>160</w>
       <h>30</h>
     </coordinates>
@@ -2966,8 +2966,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>845</x>
-      <y>755</y>
+      <x>780</x>
+      <y>740</y>
       <w>10</w>
       <h>15</h>
     </coordinates>
@@ -2978,8 +2978,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>920</x>
-      <y>750</y>
+      <x>855</x>
+      <y>735</y>
       <w>10</w>
       <h>20</h>
     </coordinates>
@@ -2990,8 +2990,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>780</x>
-      <y>755</y>
+      <x>715</x>
+      <y>740</y>
       <w>75</w>
       <h>20</h>
     </coordinates>
@@ -3002,8 +3002,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>920</x>
-      <y>765</y>
+      <x>855</x>
+      <y>750</y>
       <w>15</w>
       <h>30</h>
     </coordinates>
@@ -3013,8 +3013,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>845</x>
-      <y>765</y>
+      <x>780</x>
+      <y>750</y>
       <w>15</w>
       <h>30</h>
     </coordinates>
@@ -3024,8 +3024,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1070</x>
-      <y>760</y>
+      <x>1005</x>
+      <y>745</y>
       <w>15</w>
       <h>35</h>
     </coordinates>
@@ -3035,8 +3035,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>305</y>
+      <x>1015</x>
+      <y>290</y>
       <w>75</w>
       <h>20</h>
     </coordinates>
@@ -3047,8 +3047,8 @@ new</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>390</y>
+      <x>1015</x>
+      <y>375</y>
       <w>65</w>
       <h>20</h>
     </coordinates>
@@ -3059,8 +3059,8 @@ new</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1295</x>
-      <y>75</y>
+      <x>1230</x>
+      <y>60</y>
       <w>50</w>
       <h>15</h>
     </coordinates>
@@ -3072,8 +3072,8 @@ new</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1350</x>
-      <y>75</y>
+      <x>1285</x>
+      <y>60</y>
       <w>50</w>
       <h>15</h>
     </coordinates>
@@ -3084,8 +3084,8 @@ new</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1320</x>
-      <y>85</y>
+      <x>1255</x>
+      <y>70</y>
       <w>15</w>
       <h>580</h>
     </coordinates>
@@ -3095,8 +3095,8 @@ new</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1370</x>
-      <y>85</y>
+      <x>1305</x>
+      <y>70</y>
       <w>15</w>
       <h>565</h>
     </coordinates>
@@ -3106,8 +3106,8 @@ new</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>635</y>
+      <x>1015</x>
+      <y>620</y>
       <w>300</w>
       <h>20</h>
     </coordinates>
@@ -3118,8 +3118,8 @@ showMainMenu</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1320</x>
-      <y>655</y>
+      <x>1255</x>
+      <y>640</y>
       <w>10</w>
       <h>15</h>
     </coordinates>
@@ -3130,8 +3130,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1370</x>
-      <y>640</y>
+      <x>1305</x>
+      <y>625</y>
       <w>10</w>
       <h>30</h>
     </coordinates>
@@ -3142,8 +3142,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>780</x>
-      <y>655</y>
+      <x>715</x>
+      <y>640</y>
       <w>550</w>
       <h>20</h>
     </coordinates>
@@ -3154,8 +3154,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1320</x>
-      <y>665</y>
+      <x>1255</x>
+      <y>650</y>
       <w>15</w>
       <h>130</h>
     </coordinates>
@@ -3165,8 +3165,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1370</x>
-      <y>665</y>
+      <x>1305</x>
+      <y>650</y>
       <w>15</w>
       <h>130</h>
     </coordinates>
@@ -3176,8 +3176,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>325</y>
+      <x>1015</x>
+      <y>310</y>
       <w>115</w>
       <h>20</h>
     </coordinates>
@@ -3188,8 +3188,8 @@ loadData(CPR)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1190</x>
-      <y>330</y>
+      <x>1125</x>
+      <y>315</y>
       <w>110</w>
       <h>20</h>
     </coordinates>
@@ -3200,8 +3200,8 @@ loadData(CPR)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1185</x>
-      <y>335</y>
+      <x>1120</x>
+      <y>320</y>
       <w>10</w>
       <h>25</h>
     </coordinates>
@@ -3212,8 +3212,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1190</x>
-      <y>340</y>
+      <x>1125</x>
+      <y>325</y>
       <w>110</w>
       <h>20</h>
     </coordinates>
@@ -3224,8 +3224,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>355</y>
+      <x>1015</x>
+      <y>340</y>
       <w>110</w>
       <h>20</h>
     </coordinates>
@@ -3236,8 +3236,8 @@ getCPR()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>600</y>
+      <x>1015</x>
+      <y>585</y>
       <w>110</w>
       <h>20</h>
     </coordinates>
@@ -3248,8 +3248,8 @@ insertData()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1290</x>
-      <y>610</y>
+      <x>1225</x>
+      <y>595</y>
       <w>10</w>
       <h>20</h>
     </coordinates>
@@ -3260,8 +3260,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1290</x>
-      <y>460</y>
+      <x>1225</x>
+      <y>445</y>
       <w>15</w>
       <h>160</h>
     </coordinates>
@@ -3271,8 +3271,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1190</x>
-      <y>605</y>
+      <x>1125</x>
+      <y>590</y>
       <w>110</w>
       <h>25</h>
     </coordinates>
@@ -3284,8 +3284,8 @@ lt=&lt;&lt;&lt;-
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>365</y>
+      <x>1015</x>
+      <y>350</y>
       <w>110</w>
       <h>25</h>
     </coordinates>
@@ -3297,8 +3297,8 @@ lt=.&gt;
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1185</x>
-      <y>610</y>
+      <x>1120</x>
+      <y>595</y>
       <w>10</w>
       <h>25</h>
     </coordinates>
@@ -3309,8 +3309,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1190</x>
-      <y>615</y>
+      <x>1125</x>
+      <y>600</y>
       <w>110</w>
       <h>25</h>
     </coordinates>
@@ -3322,8 +3322,8 @@ lt=.&gt;
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>345</y>
+      <x>1015</x>
+      <y>330</y>
       <w>115</w>
       <h>25</h>
     </coordinates>
@@ -3335,8 +3335,8 @@ lt=.&gt;
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>620</y>
+      <x>1015</x>
+      <y>605</y>
       <w>115</w>
       <h>25</h>
     </coordinates>
@@ -3348,8 +3348,8 @@ lt=.&gt;
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1000</x>
-      <y>140</y>
+      <x>935</x>
+      <y>125</y>
       <w>80</w>
       <h>20</h>
     </coordinates>
@@ -3360,8 +3360,8 @@ lt=.&gt;
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1325</x>
-      <y>650</y>
+      <x>1260</x>
+      <y>635</y>
       <w>55</w>
       <h>25</h>
     </coordinates>
@@ -3373,8 +3373,8 @@ lt=.&gt;
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>780</x>
-      <y>145</y>
+      <x>715</x>
+      <y>130</y>
       <w>225</w>
       <h>20</h>
     </coordinates>
@@ -3385,8 +3385,8 @@ lt=.&gt;
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>775</x>
-      <y>565</y>
+      <x>710</x>
+      <y>550</y>
       <w>620</w>
       <h>110</h>
     </coordinates>
@@ -3398,8 +3398,8 @@ fg=red</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1290</x>
-      <y>445</y>
+      <x>1225</x>
+      <y>430</y>
       <w>10</w>
       <h>20</h>
     </coordinates>
@@ -3410,8 +3410,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1190</x>
-      <y>440</y>
+      <x>1125</x>
+      <y>425</y>
       <w>110</w>
       <h>25</h>
     </coordinates>
@@ -3423,8 +3423,8 @@ clinicID, employmentID)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1185</x>
-      <y>445</y>
+      <x>1120</x>
+      <y>430</y>
       <w>10</w>
       <h>25</h>
     </coordinates>
@@ -3435,8 +3435,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1190</x>
-      <y>450</y>
+      <x>1125</x>
+      <y>435</y>
       <w>110</w>
       <h>20</h>
     </coordinates>
@@ -3447,8 +3447,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>465</y>
+      <x>1015</x>
+      <y>450</y>
       <w>110</w>
       <h>20</h>
     </coordinates>
@@ -3459,8 +3459,8 @@ getEmploymentID()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>530</y>
+      <x>1015</x>
+      <y>515</y>
       <w>110</w>
       <h>20</h>
     </coordinates>
@@ -3471,8 +3471,8 @@ getFirstName()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>475</y>
+      <x>1015</x>
+      <y>460</y>
       <w>110</w>
       <h>25</h>
     </coordinates>
@@ -3484,8 +3484,8 @@ lt=.&gt;
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>540</y>
+      <x>1015</x>
+      <y>525</y>
       <w>110</w>
       <h>25</h>
     </coordinates>
@@ -3497,8 +3497,8 @@ lt=.&gt;
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>455</y>
+      <x>1015</x>
+      <y>440</y>
       <w>115</w>
       <h>25</h>
     </coordinates>
@@ -3510,8 +3510,8 @@ lt=.&gt;
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>435</y>
+      <x>1015</x>
+      <y>420</y>
       <w>115</w>
       <h>25</h>
     </coordinates>
@@ -3523,8 +3523,8 @@ clinicID, employmentID)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1000</x>
-      <y>505</y>
+      <x>935</x>
+      <y>490</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -3535,8 +3535,8 @@ show error</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1075</x>
-      <y>510</y>
+      <x>1010</x>
+      <y>495</y>
       <w>10</w>
       <h>10</h>
     </coordinates>
@@ -3547,8 +3547,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1070</x>
-      <y>505</y>
+      <x>1005</x>
+      <y>490</y>
       <w>10</w>
       <h>20</h>
     </coordinates>
@@ -3559,8 +3559,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>995</x>
-      <y>505</y>
+      <x>930</x>
+      <y>490</y>
       <w>10</w>
       <h>20</h>
     </coordinates>
@@ -3571,8 +3571,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>780</x>
-      <y>510</y>
+      <x>715</x>
+      <y>495</y>
       <w>225</w>
       <h>20</h>
     </coordinates>
@@ -3583,8 +3583,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>775</x>
-      <y>490</y>
+      <x>710</x>
+      <y>475</y>
       <w>540</w>
       <h>40</h>
     </coordinates>
@@ -3596,8 +3596,8 @@ fg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1070</x>
-      <y>485</y>
+      <x>1005</x>
+      <y>470</y>
       <w>15</w>
       <h>30</h>
     </coordinates>
@@ -3607,8 +3607,8 @@ fg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>995</x>
-      <y>485</y>
+      <x>930</x>
+      <y>470</y>
       <w>15</w>
       <h>30</h>
     </coordinates>
@@ -3618,8 +3618,8 @@ fg=blue</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1180</x>
-      <y>530</y>
+      <x>1115</x>
+      <y>515</y>
       <w>10</w>
       <h>25</h>
     </coordinates>
@@ -3630,8 +3630,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1070</x>
-      <y>530</y>
+      <x>1005</x>
+      <y>515</y>
       <w>10</w>
       <h>30</h>
     </coordinates>
@@ -3642,8 +3642,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>995</x>
-      <y>530</y>
+      <x>930</x>
+      <y>515</y>
       <w>10</w>
       <h>30</h>
     </coordinates>
@@ -3654,8 +3654,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1075</x>
-      <y>530</y>
+      <x>1010</x>
+      <y>515</y>
       <w>10</w>
       <h>25</h>
     </coordinates>
@@ -3666,8 +3666,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1180</x>
-      <y>550</y>
+      <x>1115</x>
+      <y>535</y>
       <w>15</w>
       <h>30</h>
     </coordinates>
@@ -3677,8 +3677,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1180</x>
-      <y>570</y>
+      <x>1115</x>
+      <y>555</y>
       <w>10</w>
       <h>215</h>
     </coordinates>
@@ -3689,8 +3689,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>775</x>
-      <y>715</y>
+      <x>710</x>
+      <y>700</y>
       <w>400</w>
       <h>65</h>
     </coordinates>
@@ -3701,8 +3701,8 @@ lw=2.5</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1000</x>
-      <y>685</y>
+      <x>935</x>
+      <y>670</y>
       <w>85</w>
       <h>20</h>
     </coordinates>
@@ -3713,8 +3713,8 @@ show error</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1075</x>
-      <y>690</y>
+      <x>1010</x>
+      <y>675</y>
       <w>10</w>
       <h>10</h>
     </coordinates>
@@ -3725,8 +3725,8 @@ bg=#ffcc00</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1070</x>
-      <y>685</y>
+      <x>1005</x>
+      <y>670</y>
       <w>10</w>
       <h>20</h>
     </coordinates>
@@ -3737,8 +3737,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>995</x>
-      <y>685</y>
+      <x>930</x>
+      <y>670</y>
       <w>10</w>
       <h>20</h>
     </coordinates>
@@ -3749,8 +3749,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>780</x>
-      <y>690</y>
+      <x>715</x>
+      <y>675</y>
       <w>225</w>
       <h>20</h>
     </coordinates>
@@ -3761,8 +3761,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>850</x>
-      <y>750</y>
+      <x>785</x>
+      <y>735</y>
       <w>80</w>
       <h>25</h>
     </coordinates>
