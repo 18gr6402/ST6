@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
   <help_text>// Uncomment the following line to change the fontsize and font:
-fontsize=16
+fontsize=18
 fontfamily=Monospaced //possible: SansSerif,Serif,Monospaced
 
 
@@ -527,7 +527,7 @@ bg=#0099cc</panel_attributes>
     <coordinates>
       <x>396</x>
       <y>378</y>
-      <w>198</w>
+      <w>204</w>
       <h>210</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
@@ -911,7 +911,7 @@ m2=*
     <coordinates>
       <x>252</x>
       <y>294</y>
-      <w>894</w>
+      <w>900</w>
       <h>342</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
@@ -1213,15 +1213,15 @@ layer=1</panel_attributes>
       <w>186</w>
       <h>132</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
+    <panel_attributes>lt=-&gt;</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;40.0;290.0;40.0;290.0;200.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>678</x>
+      <x>672</x>
       <y>138</y>
-      <w>120</w>
+      <w>126</w>
       <h>24</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Interface&gt;&gt;
